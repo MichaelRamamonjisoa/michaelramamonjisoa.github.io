@@ -1,15 +1,22 @@
 ---
-title: "Paper Title Number 1"
+title: "SharpNet"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/SharpNet
+excerpt: ''
+date: 
+venue: 'arXiv'
+paperurl: 'http://michaelramamonjisoa.github.io/files/paper1.pdf'
+citation: 'Michael Ramamonjisoa, Vincent Lepetit. (2019). &quot;SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation.&quot; <i>arXiv</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://arxiv.org/pdf/1905.08598.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+#### Citation:
+```markdown
+@article{ramamonjisoa2019sharpnet,
+    Title = {SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation},
+    Author = {Michael Ramamonjisoa and Vincent Lepetit},
+    Journal = {arXiv preprint arXiv:1905.08598},
+    Year = {2019}
+}
+```
