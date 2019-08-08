@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michael Ramamonjisoa / PhD Student in Computer Vision"
+title                    : "Michaël Ramamonjisoa"
 title_separator          : "-"
-name                     : &name "Michael Ramamonjisoa"
+name                     : &name "Michaël Ramamonjisoa"
 description              : &description "PhD Student in Computer Vision"
 url                      : https://michaelramamonjisoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
