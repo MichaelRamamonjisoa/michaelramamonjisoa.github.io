@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Michaël Ramamonjisoa"
   avatar           : "photo_github.png"
   bio              : "I am a PhD student in Computer Vision and Deep Learning"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
-  email            : #"ramamonjisoa.michael@gmail.com"
-  researchgate     : #"https://www.researchgate.net/profile/Michael_Ramamonjisoa
+  googlescholar    : "https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
+  email            : "ramamonjisoa.michael@gmail.com"
+  researchgate     : "https://www.researchgate.net/profile/Michael_Ramamonjisoa
   uri              :
   bitbucket        :
   codepen          :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : #"https://www.linkedin.com/in/micha%C3%ABl-ramamonjisoa-493a2781/"
+  linkedin         : "https://www.linkedin.com/in/micha%C3%ABl-ramamonjisoa-493a2781/"
   orcid            : 
   pinterest        :
   soundcloud       :
