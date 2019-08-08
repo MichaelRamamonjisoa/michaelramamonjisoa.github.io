@@ -11,9 +11,9 @@ title                    : "Michaël Ramamonjisoa / PhD Student in Computer Visi
 title_separator          : "-"
 name                     : &name "Michaël Ramamonjisoa"
 description              : &description "PhD Student in Computer Vision"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://michaelramamonjisoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "MichaelRamamonjisoa/michaelramamonjisoa.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
