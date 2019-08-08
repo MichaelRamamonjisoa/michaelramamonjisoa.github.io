@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "fr-FR"
+locale                   : "en-US"
 title                    : "Michael Ramamonjisoa"
 title_separator          : "-"
 name                     : &name "Michael Ramamonjisoa"
@@ -86,9 +86,9 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
-  email            : "ramamonjisoa.michael@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Michael_Ramamonjisoa
+  googlescholar    : #"https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
+  email            : #"ramamonjisoa.michael@gmail.com"
+  researchgate     : #"https://www.researchgate.net/profile/Michael_Ramamonjisoa
   uri              :
   bitbucket        :
   codepen          :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "MichaelRamamonjisoa"
+  github           : #"MichaelRamamonjisoa"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/micha%C3%ABl-ramamonjisoa-493a2781/"
+  linkedin         : #"https://www.linkedin.com/in/micha%C3%ABl-ramamonjisoa-493a2781/"
   orcid            : 
   pinterest        :
   soundcloud       :
