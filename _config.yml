@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michael Ramamonjisoa"
+title                    : "Michaël Ramamonjisoa"
 title_separator          : "-"
-name                     : &name "Michael Ramamonjisoa"
+name                     : &name "Michaël Ramamonjisoa"
 description              : &description "PhD Student in Computer Vision"
 url                      : https://michaelramamonjisoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -86,7 +86,7 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
   email            : #"ramamonjisoa.michael@gmail.com"
   researchgate     : #"https://www.researchgate.net/profile/Michael_Ramamonjisoa
   uri              :
