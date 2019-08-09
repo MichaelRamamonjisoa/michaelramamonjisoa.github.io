@@ -3,7 +3,6 @@ id: 'SharpNet'
 title: 'SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation'
 collection: publications
 permalink: /publication/SharpNet
-excerpt: ''
 thumbnail: /images/SharpNet_thumbnail.gif
 date: 07-08-2019
 venue: 'arXiv'
