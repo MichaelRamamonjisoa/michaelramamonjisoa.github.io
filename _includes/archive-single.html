@@ -43,7 +43,9 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
+	  <img src="{{post.thumbnail}}">
           <h2>{{post.title}}</h2>
+	  <h3>{{post.authors}}</h3>
           <div class="row">
 		<div class="col-xs-10 col-sm-4 col-md-4">  
 		  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#{{post.title}}_abstract">Abstract</button>
