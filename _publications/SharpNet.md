@@ -1,13 +1,13 @@
 ---
-id: "SharpNet"
-title: "SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation"
+id: 'SharpNet'
+title: 'SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation'
 collection: publications
 permalink: /publication/SharpNet
 excerpt: ''
 thumbnail: /images/SharpNet_thumbnail.gif
 date: 07-08-2019
 venue: 'arXiv'
-authors: "Michaël Ramamonjisoa and Vincent Lepetit"
+authors: 'Michaël Ramamonjisoa and Vincent Lepetit'
 abstract: "We introduce SharpNet, a method that predicts an accurate depth map for an input color image, with a particular attention to the reconstruction of occluding contours: Occluding contours are an important cue for object recognition, and for realistic integration of virtual objects in Augmented Reality, but they are also notoriously difficult to reconstruct accurately.
           For example, they are a challenge for stereo-based reconstruction methods, as points around an occluding contour are visible in only one image. 
           Inspired by recent methods that introduce normal estimation to improve depth prediction, 
@@ -27,7 +27,6 @@ bibtex: "@article{ramamonjisoa2019sharpnet,
     Journal = {arXiv preprint arXiv:1905.08598},
     Year = {2019}
     }"
-authors:
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 ---
