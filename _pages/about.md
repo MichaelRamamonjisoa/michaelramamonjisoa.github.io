@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "Welcome to my webpage"
+title: "Welcome to my webpage !"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Welcome to my webpage !
-======
 
 I am a PhD student at [Laboratoire Bordelais de Recherche Informatique (LaBRI)](https://www.labri.fr/) of [University of Bordeaux](https://www.u-bordeaux.com/). I am working with on Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](https://www.labri.fr/perso/vlepetit/), with a current focus on Scene Geometry Estimation. Our goal is to extract from images several components that relevant for Scene Understanding and exploit relationships between those. 
 
