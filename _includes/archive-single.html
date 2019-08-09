@@ -53,11 +53,11 @@
 		<h3>{{post.title}}</h3><br> 
 	  	<h4>{{post.authors}}</h4><br>
 		  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#{{post.short}}_abstract">Abstract</button>
-		  <div id="{{post.id}}_abstract" class="collapse">        
+		  <div id="{{post.short}}_abstract" class="collapse">        
 		  {{post.abstract}}
 		  </div>  		
 		  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#{{post.short}}_bibtex">Bibtex</button>
-		  <div id="{{post.id}}_bibtex" class="collapse">
+		  <div id="{{post.short}}_bibtex" class="collapse">
 		  {{post.bibtex}}
 		  </div>  	          	
 		{% if post.code %}		
