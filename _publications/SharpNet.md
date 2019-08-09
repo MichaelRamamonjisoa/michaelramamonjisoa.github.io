@@ -29,5 +29,7 @@ bibtex: "@article{ramamonjisoa2019sharpnet,
     Journal = {arXiv preprint arXiv:1905.08598},
     Year = {2019}
     }"
+code: "https://github.com/MichaelRamamonjisoa/SharpNet"
+pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 ---
 
