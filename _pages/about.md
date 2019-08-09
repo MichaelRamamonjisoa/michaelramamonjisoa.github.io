@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Michaël Ramamonjisoa"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
