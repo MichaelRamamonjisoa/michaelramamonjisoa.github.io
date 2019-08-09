@@ -3,7 +3,7 @@ title: "SharpNet"
 collection: publications
 permalink: /publication/SharpNet
 excerpt: ''
-thumbnail: /images/SharpNet_thumbnail.gif
+thumbnail: /images/SharpNet_thumbnail_resized.gif
 date: 07-08-2019
 venue: 'arXiv'
 citation: 'Michael Ramamonjisoa, Vincent Lepetit, SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation'
