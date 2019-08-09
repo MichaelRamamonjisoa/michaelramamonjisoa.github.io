@@ -3,7 +3,7 @@ title: "SharpNet"
 collection: publications
 permalink: /publication/SharpNet
 excerpt: ''
-thumbnail: /images/SharpNet_thumbnail_resized.gif
+thumbnail: /images/SharpNet_thumbnail.gif
 date: 07-08-2019
 venue: 'arXiv'
 authors: "Michaël Ramamonjisoa and Vincent Lepetit"
