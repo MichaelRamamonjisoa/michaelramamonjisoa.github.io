@@ -20,11 +20,11 @@ abstract: "We introduce SharpNet, a method that predicts an accurate depth map f
           acquired by a depth camera based on structured light. We show this by introducing a 
           new benchmark based on NYUv2-Depth for evaluating occluding contours in monocular reconstruction, 
           which is our second contribution."
-bibtex: "@article{ramamonjisoa2019sharpnet,
-    Title = {SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation},
-    Author = {Michael Ramamonjisoa and Vincent Lepetit},
-    Journal = {arXiv preprint arXiv:1905.08598},
-    Year = {2019}
+bibtex: "@article{ramamonjisoa2019sharpnet, <br>
+    Title = {SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation}, <br>
+    Author = {Michael Ramamonjisoa and Vincent Lepetit}, <br>
+    Journal = {arXiv preprint arXiv:1905.08598}, <br>
+    Year = {2019}<br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
