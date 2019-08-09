@@ -6,12 +6,9 @@ excerpt: ''
 thumbnail: /images/SharpNet_thumbnail_resized.gif
 date: 07-08-2019
 venue: 'arXiv'
-abstract: "We introduce SharpNet, a method that predicts an accurate depth map for an input color image, 
-          with a particular attention to the reconstruction of occluding contours: Occluding contours 
-          are an important cue for object recognition, and for realistic integration of virtual objects 
-          in Augmented Reality, but they are also notoriously difficult to reconstruct accurately.
-          For example, they are a challenge for stereo-based reconstruction methods, 
-          as points around an occluding contour are visible in only one image. 
+authors: "Michaël Ramamonjisoa and Vincent Lepetit"
+abstract: "We introduce SharpNet, a method that predicts an accurate depth map for an input color image, with a particular attention to the reconstruction of occluding contours: Occluding contours are an important cue for object recognition, and for realistic integration of virtual objects in Augmented Reality, but they are also notoriously difficult to reconstruct accurately.
+          For example, they are a challenge for stereo-based reconstruction methods, as points around an occluding contour are visible in only one image. 
           Inspired by recent methods that introduce normal estimation to improve depth prediction, 
           we introduce a novel term that constrains depth and occluding contours predictions. 
           Since ground truth depth is difficult to obtain with pixel-perfect accuracy along occluding contours, 
@@ -29,6 +26,7 @@ bibtex: "@article{ramamonjisoa2019sharpnet,
     Journal = {arXiv preprint arXiv:1905.08598},
     Year = {2019}
     }"
+authors:
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 ---
