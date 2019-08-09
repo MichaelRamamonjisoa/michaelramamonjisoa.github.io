@@ -43,19 +43,23 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <div class="container">
-          <h2>{{ post.title }}</h2>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Abstract</button>
-          <div id="demo" class="collapse">
-          {{ post.abstract }}
-          </div>
-          </div>
-          <div class="container">
-          <h2>{{ post.title }}</h2>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Bibtex</button>
-          <div id="demo" class="collapse">
-          {{ post.bibtex }}
-          </div>
+          <h2>{{post.title}}</h2>
+          <div class="row">
+	        <div class="col-xs-10 col-sm-4 col-md-4">  
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#{{post.title}}_abstract">Abstract</button>
+          <div id="{{post.title}}_abstract" class="collapse">        
+          {{post.abstract}}
+          </div>  		
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#{{post.title}}_bibtex">Bibtex</button>
+          <div id="{{post.title}}_bibtex" class="collapse">
+          {{post.bibtex}}
+          </div>  	  
+        {% if post.code %}
+        <a href={{post.code}}><button type="button" class="btn btn-info">Code</button></a>          
+        {% endif %}
+        {% if post.pdf %}
+        <a href={{post.pdf}}><button type="button" class="btn btn-info">PDF</button></a>          
+        {% endif %}
           </div>
            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
