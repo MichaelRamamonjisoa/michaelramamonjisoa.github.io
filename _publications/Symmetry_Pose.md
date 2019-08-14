@@ -3,7 +3,7 @@ short: 'Symmetry_Pose'
 title: 'On Object Symmetries and 6D Pose Estimation from Images'
 collection: publications
 permalink: /publication/Symmetry_Pose
-thumbnail: /images/SharpNet_thumbnail.gif
+thumbnail: /images/Symmetry.gif
 date: 14-08-2019
 venue: '2019 International Conference on 3D Vision (3DV)'
 authors: '<strong>Giorgia Pitteri</strong>, <strong>Michaël Ramamonjisoa</strong>, Slobodan Ilic and Vincent Lepetit'
