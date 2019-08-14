@@ -23,7 +23,7 @@ symmetries, as well as real sequences from T-Less."
 bibtex: "@article{pitteri2019threedv, <br>
  Title = {On Object Symmetries and 6D Pose Estimation from Images}, <br>
  Author = {G. Pitteri and M. Ramamonjisoa and S. Ilic and V. Lepetit}, <br>
- Journal = {arXiv preprint arXiv:1905.08598}, <br>
+ Journal = {International Conference on 3D Vision}, <br>
  Year = {2019}<br>
  }"
 ---
