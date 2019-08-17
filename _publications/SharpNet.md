@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/SharpNet
 thumbnail: /images/SharpNet_thumbnail.gif
 date: 07-08-2019
-venue: 'arXiv'
+venue: 'International Conference on Computer Vision (ICCV) Workshop on 3D Reconstruction in the Wild'
 authors: 'Michaël Ramamonjisoa and Vincent Lepetit'
 abstract: "We introduce SharpNet, a method that predicts an accurate depth map for an input color image, with a particular attention to the reconstruction of occluding contours: Occluding contours are an important cue for object recognition, and for realistic integration of virtual objects in Augmented Reality, but they are also notoriously difficult to reconstruct accurately.
           For example, they are a challenge for stereo-based reconstruction methods, as points around an occluding contour are visible in only one image. 
@@ -23,7 +23,7 @@ abstract: "We introduce SharpNet, a method that predicts an accurate depth map f
 bibtex: "@article{ramamonjisoa2019sharpnet, <br>
     Title = {SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation}, <br>
     Author = {M. Ramamonjisoa and V. Lepetit}, <br>
-    Journal = {arXiv preprint arXiv:1905.08598}, <br>
+    Journal = {The IEEE International Conference on Computer Vision (ICCV) Workshops}, <br>
     Year = {2019}<br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
