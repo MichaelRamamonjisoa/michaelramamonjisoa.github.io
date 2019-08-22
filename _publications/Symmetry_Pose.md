@@ -26,5 +26,6 @@ bibtex: "@article{pitteri2019threedv, <br>
  Journal = {International Conference on 3D Vision}, <br>
  Year = {2019}<br>
  }"
+pdf: 'https://arxiv.org/pdf/1908.07640.pdf'
 ---
 
