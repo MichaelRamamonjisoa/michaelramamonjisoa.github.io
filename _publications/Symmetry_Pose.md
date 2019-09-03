@@ -6,7 +6,7 @@ permalink: /publication/Symmetry_Pose
 thumbnail: /images/Symmetry.gif
 date: 14-08-2019
 venue: '2019 International Conference on 3D Vision (3DV)'
-authors: '<strong>Giorgia Pitteri</strong>, <strong>Michaël Ramamonjisoa</strong>, Slobodan Ilic and Vincent Lepetit'
+authors: 'Giorgia Pitteri<sup>*</sup>, <a href=/about.html>Michaël Ramamonjisoa</a><sup>*</sup>, Slobodan Ilic and Vincent Lepetit'
 abstract: "Objects with symmetries are common in our daily life and in industrial contexts,
 but are often ignored in the recent literature on 6D pose estimation from
 images. In this paper, we study in an analytical way the link between the
