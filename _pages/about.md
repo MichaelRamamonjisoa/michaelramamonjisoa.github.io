@@ -19,4 +19,4 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 News
 ======
 - 24/09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
-- 20/09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) at Quebec City. Very interesting talks given by keynote speakers!
+- 20/09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. Very interesting talks given by keynote speakers!
