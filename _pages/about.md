@@ -18,6 +18,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
+- 27/10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
 - 02/10/2019: I will attend the [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/) from 3rd to 5th of October. Have a look at the top notch [speakers](https://project.inria.fr/paiss/speakers/) and [program](https://project.inria.fr/paiss/program/)!
 - 24/09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
 - 20/09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. Very interesting talks given by keynote speakers!
