@@ -40,7 +40,7 @@ layout: default
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	  <p> There should be a picture here! </p>
-	  <p> Right here <img src="/images/DisplacementFields_thumbnail.gif" alt=""/> </p>
+	  <p> Right here <img src="{{ base_path }}{{ page.thumbnail }}" alt=""/> </p>
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
