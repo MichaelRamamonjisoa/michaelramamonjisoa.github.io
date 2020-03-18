@@ -1,13 +1,13 @@
 ---
 short: 'DispFields'
 title: 'Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields'
-collection: projects
-permalink: /projects/DisplacementFields
+collection: publications
+permalink: /publications/DisplacementFields
 thumbnail: /images/DisplacementFields_thumbnail.gif
 date: 16-06-2020
 venue: 'Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and Vincent Lepetit <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
-excerpt: "Current methods for depth map prediction from monocular images tend to predict
+abstract: "Current methods for depth map prediction from monocular images tend to predict
   smooth, poorly  localized contours for  the occlusion boundaries in  the input
   image.   This is  unfortunate as  occlusion boundaries  are important  cues to
   recognize objects, and as  we show, may lead to a way  to discover new objects
@@ -25,7 +25,7 @@ excerpt: "Current methods for depth map prediction from monocular images tend to
   accuracy for the rest of the images."
 bibtex: "@article{ramamonjisoa2020dispnet, <br>
     Title = {Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields}, <br>
-    Author = {M. Ramamonjisoa and V. Lepetit}, <br>
+    Author = {M. Ramamonjisoa and Y. Du and V. Lepetit}, <br>
     Journal = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
     Year = {2020}<br>
     }"
