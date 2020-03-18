@@ -41,18 +41,21 @@ layout: default
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	  <div class="row">
                   <div class="col-xs-10 col-sm-4 col-md-4">
-                        <a class="thumbnail">
-                          <img src="{{post.thumbnail}}" alt=""/>
-                        </a>
+                          <img src="{{page.thumbnail}}" alt=""/>
                   </div>
 	</div>
+		{% if page.code %}
+		<p> <a href="{{page.code}}"> Code </a> </p>
+		{% endif %}
+		{% if page.pdf %}
+		<p> <a href="{{page.pdf}}"> Paper PDF </a> </p>
+		{% endif %}
 
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
+        {% endif %}        
              
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
@@ -65,6 +68,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+	{% if page.content %}<h3 class="page__content" itemprop="text">{{ page.content | markdownify | remove: "<p>" | remove: "</p>"  }}</h3>{% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
