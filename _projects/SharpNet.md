@@ -1,5 +1,5 @@
 ---
-layout: single
+author_profile: false
 short: 'SharpNet'
 title: 'SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation'
 collection: projects
