@@ -5,27 +5,30 @@ title: 'Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Es
 collection: projects
 permalink: /projects/DisplacementFields
 thumbnail: /images/SharpNet_thumbnail.gif
-date: 29-10-2019
+date: 16-06-2020
 venue: 'Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
-authors: '<a href="/about.html">Michaël Ramamonjisoa</a>, Yuming Du, and Vincent Lepetit'
-excerpt: "We introduce SharpNet, a method that predicts an accurate depth map for an input color image, with a particular attention to the reconstruction of occluding contours: Occluding contours are an important cue for object recognition, and for realistic integration of virtual objects in Augmented Reality, but they are also notoriously difficult to reconstruct accurately.
-          For example, they are a challenge for stereo-based reconstruction methods, as points around an occluding contour are visible in only one image. 
-          Inspired by recent methods that introduce normal estimation to improve depth prediction, 
-          we introduce a novel term that constrains depth and occluding contours predictions. 
-          Since ground truth depth is difficult to obtain with pixel-perfect accuracy along occluding contours, 
-          we use synthetic images for training, followed by fine-tuning on real data. 
-          We demonstrate our approach on the challenging NYUv2-Depth dataset, 
-          and show that our method outperforms the state-of-the-art along occluding contours, 
-          while performing on par with the best recent methods for the rest of the images. 
-          Its accuracy along the occluding contours is actually better than the ''ground truth''
-          acquired by a depth camera based on structured light. We show this by introducing a 
-          new benchmark based on NYUv2-Depth for evaluating occluding contours in monocular reconstruction, 
-          which is our second contribution."
-bibtex: "@article{ramamonjisoa2019sharpnet, <br>
-    Title = {SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation}, <br>
+authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and Vincent Lepetit <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
+excerpt: "Current methods for depth map prediction from monocular images tend to predict
+  smooth, poorly  localized contours for  the occlusion boundaries in  the input
+  image.   This is  unfortunate as  occlusion boundaries  are important  cues to
+  recognize objects, and as  we show, may lead to a way  to discover new objects
+  from scene  reconstruction.  To improve  predicted depth maps,  recent methods
+  rely on various  forms of filtering or predict an  additive residual depth map
+  to refine a  first estimate.  We instead  learn to predict, given  a depth map
+  predicted  by some  reconstruction method,  a  2D displacement  field able  to
+  re-sample pixels around the occlusion boundaries into sharper reconstructions.
+  Our method can be applied to the  output of any depth estimation method and is
+  fully  differentiable,  enabling  end-to-end  training.   For  evaluation,  we
+  manually annotated  the occlusion  boundaries in  all the  images in  the test
+  split of popular  NYUv2-Depth dataset. We show that our  approach improves the
+  localization of occlusion boundaries  for all state-of-the-art monocular depth
+  estimation   methods   that    we   could   evaluate,   without  degrading  the  depth
+  accuracy for the rest of the images."
+bibtex: "@article{ramamonjisoa2020dispnet, <br>
+    Title = {Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields}, <br>
     Author = {M. Ramamonjisoa and V. Lepetit}, <br>
-    Journal = {The IEEE International Conference on Computer Vision (ICCV) Workshops}, <br>
-    Year = {2019}<br>
+    Journal = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
+    Year = {2020}<br>
     }"
 code: "https://github.com/dulucas/DisplacementFields"
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
