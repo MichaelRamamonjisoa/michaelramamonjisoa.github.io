@@ -233,8 +233,8 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
-      author_profile: true
+      layout: project_page
+      author_profile: false
 
   
   # _portfolio
