@@ -45,6 +45,7 @@ layout: default
                           <img src="{{post.thumbnail}}" alt=""/>
                         </a>
                   </div>
+	</div>
 
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
