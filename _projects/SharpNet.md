@@ -3,7 +3,7 @@ short: 'SharpNet'
 title: 'SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation'
 collection: projects
 permalink: /projects/SharpNet
-thumbnail: /images/SharpNet_thumbnail.gif
+thumbnail: /images/bio-photo-2.jpg
 date: 28-10-2019
 venue: 'International Conference on Computer Vision (ICCV) Workshop on 3D Reconstruction in the Wild'
 authors: '<a href="/about.html">Michaël Ramamonjisoa</a> and Vincent Lepetit'
