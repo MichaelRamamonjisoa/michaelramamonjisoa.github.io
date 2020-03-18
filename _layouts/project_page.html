@@ -40,7 +40,7 @@ layout: default
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	                         <a class="thumbnail">
-                          <img src="{{ base_path }}{{post.thumbnail}}" alt="">
+                          <img src="{{post.thumbnail}}" alt="">
                         </a>
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
