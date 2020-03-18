@@ -2,7 +2,7 @@
 short: 'Symmetry_Pose'
 title: 'On Object Symmetries and 6D Pose Estimation from Images'
 collection: publications
-permalink: /publication/Symmetry_Pose
+permalink: /publications/Symmetry_Pose
 thumbnail: /images/Symmetry.gif
 date: 14-08-2019
 venue: '2019 International Conference on 3D Vision (3DV)'

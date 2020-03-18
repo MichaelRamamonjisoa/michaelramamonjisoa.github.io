@@ -1,5 +1,5 @@
 ---
-short: 'DisplacementFields'
+short: 'DispFields'
 title = 'Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields'
 collection: projects
 permalink: /projects/DisplacementFields
