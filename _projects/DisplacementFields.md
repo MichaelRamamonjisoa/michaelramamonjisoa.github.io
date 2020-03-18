@@ -3,7 +3,7 @@ short: 'DispFields'
 title: 'Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields'
 collection: projects
 permalink: /projects/DisplacementFields
-thumbnail: /images/bio-photo-2.jpg
+thumbnail: /images/DisplacementField_thumbnail.gif
 date: 16-06-2020
 venue: 'Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and Vincent Lepetit <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
