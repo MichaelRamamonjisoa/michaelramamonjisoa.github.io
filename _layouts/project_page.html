@@ -39,7 +39,7 @@ layout: default
 	{% elsif page.collection == 'projects' %}
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
-	  <img src="{{post.thumbnail}}" alt="">
+	  <p> <img src="{{post.thumbnail}}" alt=""> </p>
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
