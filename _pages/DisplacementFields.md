@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Projects"
-permalink: /projects/
+title: "Displacement Fields"
+permalink: /DisplacementFields
 author_profile: false
 ---
 
