@@ -50,9 +50,6 @@ layout: default
 		{% if page.pdf %}
 		<p> <a href="{{page.pdf}}"> Paper PDF </a> </p>
 		{% endif %}
-		{% if page.dataset %}
-		<p> {{ page.dataset }} </p>
-		{% endif %}
 
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
