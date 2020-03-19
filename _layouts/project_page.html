@@ -39,8 +39,8 @@ layout: default
 	{% elsif page.collection == 'projects' %}
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
-	  <div class="row">
-                  <div class="col-xs-10 col-sm-4 col-md-4">
+	  <div class="row justify-content-center">
+                  <div class="col-xs-10 col-sm-8 col-md-8">
                           <img src="{{page.thumbnail}}" alt=""/>
                   </div>
 	</div>
