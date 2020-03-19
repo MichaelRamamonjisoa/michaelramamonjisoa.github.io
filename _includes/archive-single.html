@@ -65,6 +65,9 @@
 		{% if post.pdf %}
 		<a href="{{post.pdf}}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>          
 		{% endif %}	
+		{% if post.project_page %}
+		<a href="{{post.project_page}}"><button type="button" class="btn btn-primary btn-xs">Project Page</button></a>          
+		{% endif %}
 	   <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
          {% elsif post.collection == 'projects' %}	
 	  <div class="row">

@@ -30,6 +30,7 @@ bibtex: "@article{ramamonjisoa2020dispnet, <br>
     Year = {2020}<br>
     }"
 code: "https://github.com/dulucas/DisplacementFields"
+project_page: /projects/DisplacementFields
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
 ---
 
