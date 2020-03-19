@@ -30,7 +30,6 @@ bibtex: "@article{ramamonjisoa2020dispnet, <br>
     Year = {2020}<br>
     }"
 code: "https://github.com/dulucas/DisplacementFields"
-dataset: "Access our NYUv2OC++ dataset <a href="https://arxiv.org/pdf/2002.12730.pdf">here</a>"
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
 ---
 
