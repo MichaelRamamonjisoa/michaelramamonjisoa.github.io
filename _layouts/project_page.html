@@ -40,14 +40,16 @@ layout: default
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	  <div class="row justify-content-center">
-                  <div class="col-xs-10 col-sm-8 col-md-8">
-                          <img src="{{page.thumbnail}}" alt=""/>
-                  </div>
-	</div>
-	<div class="container">
-		<div class="col-md-7 col-sm-8 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
-		<img src="{{page.thumbnail}}" class="img-fluid" alt=""/>
-	    </div>
+    		<div class="col">
+    		</div>
+	        <div class="col-xs-10 col-sm-8 col-md-8">
+		    <div class="col-md-7 col-sm-8 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
+			  <img src="{{page.thumbnail}}" class="img-fluid" alt=""/>
+                    </div>
+		</div>
+		<div class="col">
+	        </div>
+
 	</div>
 		{% if page.code %}
 		<p> <a href="{{page.code}}"> Code </a> </p>
