@@ -58,7 +58,9 @@ layout: default
 		{% if page.dataset %}
 		<p> {{ page.dataset }} </p>
 		{% endif %}
-
+		{% if page.poster %}
+		<p> <a href="{{page.poster}}"> Poster <img src="{{page.poster_thumbnail}}" class="img-fluid" alt="" /></a></p>
+		{% endif %}
 	{% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

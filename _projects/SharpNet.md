@@ -28,5 +28,7 @@ bibtex: "@article{ramamonjisoa2019sharpnet, <br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
+poster: /files/Poster_Sharpnet.pdf
+poster_thumbnail: /files/Poster_Sharpnet_thumbnail.png
 ---
 
