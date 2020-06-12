@@ -32,5 +32,7 @@ bibtex: "@article{ramamonjisoa2020dispnet, <br>
 code: "https://github.com/dulucas/DisplacementFields"
 dataset: 'Access our NYUv2OC++ dataset <a href="https://drive.google.com/open?id=1Fk8uuH3oJJhyCN-4ffD3mdtCq2l4geJc">here</a>'
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
+poster: /files/Poster_DisplacementFields.pdf
+poster_thumbnail: /files/Poster_DisplacementFields_thumbnail.png
 ---
 
