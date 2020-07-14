@@ -18,7 +18,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 14/07/2020: Starting an internship at Niantic[https://research.nianticlabs.com/] (London).
+- 14/07/2020: Starting an internship at [Niantic](https://research.nianticlabs.com/) (London).
 - 24/02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted to CVPR 2020.
 - 27/10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
 - 02/10/2019: I will attend the [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/) from 3rd to 5th of October. Have a look at the top notch [speakers](https://project.inria.fr/paiss/speakers/) and [program](https://project.inria.fr/paiss/program/)!
