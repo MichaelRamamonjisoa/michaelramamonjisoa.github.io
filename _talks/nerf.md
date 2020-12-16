@@ -2,7 +2,7 @@
 title: "Continuous 3D Scene Representations with Implicit Functions"
 collection: talks
 type: "Talk"
-permalink: /files/nerf
+permalink: /talks/nerf
 venue: "Imagine, ENPC"
 date: 2020-12-16
 location: "Paris, France"
