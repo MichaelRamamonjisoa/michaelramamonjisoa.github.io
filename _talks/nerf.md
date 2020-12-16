@@ -5,6 +5,8 @@ type: "Talk"
 permalink: /files/ImplicitFunction_NeRF.pdf
 venue: "Imagine, ENPC"
 date: 2020-12-16
+location: "Paris, France"
 ---
 
-This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+An introduction to implicit 3D scene representations with a focus on Neural Radiance Fields (NeRF).
+Google slides [here](https://docs.google.com/presentation/d/1Ctj82JR_xEIDdf9jiA7W51yPjlGRfRWGy84D-k70mHs/).
