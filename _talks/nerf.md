@@ -2,10 +2,11 @@
 title: "Continuous 3D Scene Representations with Implicit Functions"
 collection: talks
 type: "Talk"
-permalink: /files/ImplicitFunction_NeRF.pdf
+permalink: /files/nerf
 venue: "Imagine, ENPC"
 date: 2020-12-16
 location: "Paris, France"
+pdf: /files/ImplicitFunction_NeRF.pdf
 ---
 
 An introduction to implicit 3D scene representations with a focus on Neural Radiance Fields (NeRF).
