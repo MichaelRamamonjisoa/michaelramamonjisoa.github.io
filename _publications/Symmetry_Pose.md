@@ -28,5 +28,6 @@ bibtex: "@article{pitteri2019threedv, <br>
  }"
 pdf: 'https://arxiv.org/pdf/1908.07640.pdf'
 code: "https://github.com/MichaelRamamonjisoa/SyntheT-Less"
+award: 'Spotlight'
 ---
 
