@@ -48,7 +48,10 @@
 			  <img src="{{post.thumbnail}}" alt="">
 			</a>
 		  </div>                    
-		<h3>{{post.title}}</h3><br> 
+		<h3>{{post.title}}</h3>
+		{% if post.award %} 
+		  <h3><i>({{post.award}})</i></h3>
+		{% endif %}<br>  
 		<h4>{{post.authors}}</h4><br>
 		  <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{post.short}}_abstract">Abstract</button>
 		  <div id="{{post.short}}_abstract" class="collapse">        
@@ -76,11 +79,7 @@
 			  <img src="{{post.thumbnail}}" alt="">
 			</a>
 		  </div>                    
-		<h3>{{post.title}}</h3> 
-		{% if post.award %} 
-		  <h3><i>({{post.award}})</i></h3>
-		{% endif %}  
-		<br>
+		<h3>{{post.title}}</h3><br>		
 		<h4>{{post.authors}}</h4><br>
 		  <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{post.short}}_abstract">Abstract</button>
 		  <div id="{{post.short}}_abstract" class="collapse">        
