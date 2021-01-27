@@ -11,7 +11,7 @@ redirect_from:
 Welcome to my webpage!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on 3D Geometry Estimation. Our goal is to extract from images several components that are relevant for Scene Understanding and exploit relationships between those. 
+I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on Monocular 3D Geometry Estimation, which aims to predict a geometric representation of a 3D scene given a single image. 
 
 I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) from [ENS Paris-Saclay](http://ens-paris-saclay.fr/). Before that, I obtained joint MS degrees from [Imperial College London](https://www.imperial.ac.uk/) and [Institut d'Optique Graduate School Paristech](https://www.institutoptique.fr/) in Optics, Physics and Signal Processing. 
 
