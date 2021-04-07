@@ -6,7 +6,7 @@ permalink: /projects/DisplacementFields
 thumbnail: /images/DisplacementFields_thumbnail.gif
 date: 16-06-2020
 venue: 'Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
-authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and Vincent Lepetit <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
+authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and <a href="https://imagine.enpc.fr/~lepetitv">Vincent Lepetit</a> <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
 conference_short: 'CVPR 2020'
 affiliation: 'LIGM (UMR 8049) - Ecole des Ponts, UPE'
 excerpt: "Current methods for depth map prediction from monocular images tend to predict
