@@ -28,47 +28,36 @@ layout: default
         <header>
           {% if page.title %}
             <center>
-                <span style="font-size:36px">{{page.title}}</span>
-                <table align=center width=600px>
-                    <table align=center width=550px>
-                        <tr>
-                            <td align=center width=200px>
-                            <span style="font-size:24px">{{page.author}}</span>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align=center width=300px>
-                        <tr>
-                            <td align=center width=250px>
-                                <center>
-                                <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>
-                                </center>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align=center width=150px>
-                                <center>
-                                <span style="font-size:24px"> {{page.conference_short}} </span>
-                                </center>
-                            </td>
-                        </tr>
-
-                    </table>
-                    <table align=center width=250px>
-                        <tr>
-                            <td align=center width=120px>
-                                <center>
-                                    <span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
-                                </center>
-                            </td>
-                            <td align=center width=120px>
-                                <center>
-                                    <span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
-                                </center>
-                            </td>
-                        </tr>
-                    </table>
-                </table>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:36px">{{page.title}}</span>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:24px">{{page.authors}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:24px"> {{page.conference_short}} </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
+                        <span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
+                    </div>
+                </div>
             </center>
 <!--            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}-->
           {% if page.read_time %}
