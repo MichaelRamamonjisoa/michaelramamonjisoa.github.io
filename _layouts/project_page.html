@@ -44,27 +44,31 @@ layout: default
 <!--                    <div class="col-md-1"></div>-->
 <!--                </div>-->
                 <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+                <h2 class="text-center">{{page.conference_short}}</h2>
                 <br><hr>
                 <h2 class="text-center">{{page.authors}}</h2>
+                <h3 class="text-center">{{page.affiliation}}</h3>
+<!--                <div class="row" align="center">-->
+<!--                    <div class="col-md-1"></div>-->
+<!--                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">-->
+<!--                        <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-1"></div>-->
+<!--                </div>-->
+<!--                <div class="row" align="center">-->
+<!--                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">-->
+<!--                        <span style="font-size:24px"> {{page.conference_short}} </span>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="row" align="center">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
-                        <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-                <div class="row" align="center">
-                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
-                        <span style="font-size:24px"> {{page.conference_short}} </span>
-                    </div>
-                </div>
-                <div class="row" align="center">
+                    <div class="col-md-2"></div>
                     <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
                         <span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
                     </div>
                     <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
                         <span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
                     </div>
+                    <div class="col-md-2"></div>
                 </div>
             </center>
 <!--            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}-->
@@ -75,8 +79,8 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-       	{% if page.collection == 'projects' %}
-	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+<!--       	{% if page.collection == 'projects' %}-->
+<!--	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>-->
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	  <div class="row">
     		<div class="col-md-2">
