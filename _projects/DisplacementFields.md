@@ -25,12 +25,13 @@ excerpt: "Current methods for depth map prediction from monocular images tend to
   localization of occlusion boundaries  for all state-of-the-art monocular depth
   estimation   methods   that    we   could   evaluate,   without  degrading  the  depth
   accuracy for the rest of the images."
-bibtex: "@article{ramamonjisoa2020dispnet, <br>
-    Title = {Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields}, <br>
-    Author = {M. Ramamonjisoa and V. Lepetit}, <br>
-    Journal = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
-    Year = {2020}<br>
-    }"
+bibtex: "@InProceedings{Ramamonjisoa_2020_CVPR,
+author = {Ramamonjisoa, Michael and Du, Yuming and Lepetit, Vincent},
+title = {Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}"
 code: "https://github.com/dulucas/Displacement_Field"
 dataset: 'Access our NYUv2OC++ dataset <a href="https://drive.google.com/open?id=1Fk8uuH3oJJhyCN-4ffD3mdtCq2l4geJc">here</a>'
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
