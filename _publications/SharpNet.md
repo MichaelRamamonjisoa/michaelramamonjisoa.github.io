@@ -27,7 +27,7 @@ bibtex: "@article{ramamonjisoa2019sharpnet, <br>
     Year = {2019}<br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
-project_page: "SharpNet"
+project_page: "https://michaelramamonjisoa.github.io/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 ---
 
