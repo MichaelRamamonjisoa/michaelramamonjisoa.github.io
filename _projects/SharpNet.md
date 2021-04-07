@@ -33,5 +33,6 @@ pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 paper_url: "https://arxiv.org/abs/1905.08598"
 poster: /files/Poster_Sharpnet.pdf
 poster_thumbnail: /files/Poster_Sharpnet_thumbnail.png
+youtube: "https://www.youtube.com/embed/bWTnekWOMZY"
 ---
 

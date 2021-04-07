@@ -308,18 +308,26 @@
 	<hr>
 	<center><h1>Results Video</h1></center>
 	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/bWTnekWOMZY" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen align="center"></iframe>
+		<iframe width="660" height="395" src="{{page.youtube}}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen align="center"></iframe>
+	</p>
+	{% endif %}
+	<br><hr>
+	{% if page.dataset %}
+	<hr>
+	<center><h1>Dataset</h1></center>
+	<p align="center">
+		<span>{{page.dataset}}</span>
 	</p>
 	{% endif %}
 	<table align=center width=600px>
 		<tr>
 			<td>
 <!--				<button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{page.short}}_bibtex">Bibtex</button>-->
-				  <h3>
+				  <h5>
 					  Please consider citing our paper if you found it helpful for your projects:
 					  <br>
 					  <pre><tt>{{page.bibtex}}</tt></pre>
-				  </h3>
+				  </h5>
 			</td>
 		</tr>
 	</table>
