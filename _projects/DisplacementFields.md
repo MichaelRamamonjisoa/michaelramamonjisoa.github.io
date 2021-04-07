@@ -38,6 +38,6 @@ paper_url: "https://arxiv.org/abs/2002.12730"
 poster: /files/Poster_DisplacementFields.pdf
 poster_thumbnail: /files/Poster_DisplacementFields_thumbnail.png
 paper_thumbnail: /files/Paper_DisplacementFields_thumbnail.png
-diagram: "files/DispFields_diagram.png"
+diagram: files/DispFields_diagram.png
 ---
 
