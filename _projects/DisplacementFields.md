@@ -39,5 +39,6 @@ poster: /files/Poster_DisplacementFields.pdf
 poster_thumbnail: /files/Poster_DisplacementFields_thumbnail.png
 paper_thumbnail: /files/Paper_DisplacementFields_thumbnail.png
 diagram: /files/DispFields_diagram.png
+youtube: "https://www.youtube.com/embed/yCPG2YCT1iU"
 ---
 
