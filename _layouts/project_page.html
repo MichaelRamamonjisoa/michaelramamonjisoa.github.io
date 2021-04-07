@@ -26,7 +26,51 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}
+            <center>
+                <span style="font-size:36px">{{page.title}}</span>
+                <table align=center width=600px>
+                    <table align=center width=550px>
+                        <tr>
+                            <td align=center width=200px>
+                            <span style="font-size:24px">{{page.author}}</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table align=center width=300px>
+                        <tr>
+                            <td align=center width=250px>
+                                <center>
+                                <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align=center width=150px>
+                                <center>
+                                <span style="font-size:24px"> {{page.conference_short}} </span>
+                                </center>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <table align=center width=250px>
+                        <tr>
+                            <td align=center width=120px>
+                                <center>
+                                    <span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
+                                </center>
+                            </td>
+                            <td align=center width=120px>
+                                <center>
+                                    <span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </table>
+            </center>
+<!--            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}-->
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -34,9 +78,7 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-	{% elsif page.collection == 'projects' %}
+       	{% if page.collection == 'projects' %}
 	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
 	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
 	  <div class="row">

@@ -7,6 +7,8 @@ thumbnail: /images/DisplacementFields_thumbnail.gif
 date: 16-06-2020
 venue: 'Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 authors: '<a href="/about.html">Michaël Ramamonjisoa</a><sup>*</sup>, Yuming Du<sup>*</sup> and Vincent Lepetit <br> <small><i><sup>* Denotes equal contribution.</sup></i></small>'
+conference_short: 'CVPR 2020'
+affiliation: 'LIGM (UMR 8049) - Ecole des Ponts, UPE'
 excerpt: "Current methods for depth map prediction from monocular images tend to predict
   smooth, poorly  localized contours for  the occlusion boundaries in  the input
   image.   This is  unfortunate as  occlusion boundaries  are important  cues to
@@ -32,6 +34,7 @@ bibtex: "@article{ramamonjisoa2020dispnet, <br>
 code: "https://github.com/dulucas/Displacement_Field"
 dataset: 'Access our NYUv2OC++ dataset <a href="https://drive.google.com/open?id=1Fk8uuH3oJJhyCN-4ffD3mdtCq2l4geJc">here</a>'
 pdf: "https://arxiv.org/pdf/2002.12730.pdf"
+paper_url: "https://arxiv.org/abs/2002.12730"
 poster: /files/Poster_DisplacementFields.pdf
 poster_thumbnail: /files/Poster_DisplacementFields_thumbnail.png
 ---
