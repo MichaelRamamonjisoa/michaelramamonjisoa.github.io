@@ -28,21 +28,29 @@ layout: default
         <header>
           {% if page.title %}
             <center>
-                <div class="row" align="center">
-                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
-                        <span style="font-size:36px">{{page.title}}</span>
-                    </div>
-                </div>
+<!--                <div class="row" align="center">-->
+<!--                    <div class="col-md-1"></div>-->
+<!--                    <div class="col-md-12 col-sm-10 col-xs-12" style="padding-left: 0px;  padding-right: 0px;">-->
+<!--                        <span style="font-size:36px">{{page.title}}</span>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-1"></div>-->
+<!--                </div>-->
+                <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
                 <br>
                 <div class="row" align="center">
+                    <div class="col-md-1"></div>
                     <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
                         <span style="font-size:24px">{{page.authors}}</span>
                     </div>
+                    <div class="col-md-1"></div>
                 </div>
+                <div class="title"
                 <div class="row" align="center">
+                    <div class="col-md-1"></div>
                     <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
                         <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>
                     </div>
+                    <div class="col-md-1"></div>
                 </div>
                 <div class="row" align="center">
                     <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
