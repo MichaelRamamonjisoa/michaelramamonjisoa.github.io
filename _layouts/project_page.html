@@ -128,154 +128,215 @@ layout: default
 </style>
 
 <html>
+<head>
+	<title>{{page.title}}</title>
+	<meta property="og:image" content="{{page.thumbnail}}"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
+	<meta property="og:title" content="{{page.title}}"/>
+<!--	<meta property="og:description" content="SharpNet predicts an accurate depth map given a single image, and is also able to predict other geometric modalities, namely occlusion boundaries and surface normals. In this work we leverage relationship between each modality and contrain the predictions to be consistent via a regularizing consensus loss term." />-->
+
+	<!-- Get from Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-75863369-6');
+	</script>
+</head>
 <body>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+<br>
+	<center>
+		<span style="font-size:36px">{{page.title}}</span>
+		<table align=center width=600px>
+			<table align=center width=550px>
+				<tr>
+					<td align=center width=550px>
+					<h2 class="text-center">{{page.authors}}</h2>
+					</td>
+				</tr>
+			</table>
+			<table align=center width=300px>
+				<tr>
+					<td align=center width=250px>
+						<center>
+						<span style="font-size:18px"> {{page.affiliation}} </span>
+						</center>
+					</td>
+				</tr>
+				<tr>
+					<td align=center width=150px>
+						<center>
+						<span style="font-size:24px"> {{page.conference_short}} </span>
+						</center>
+					</td>
+				</tr>
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+			</table>
+			<table align=center width=250px>
+				<tr>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
+						</center>
+					</td>
+				</tr>
+			</table>
+		</table>
+	</center>
 
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}
-            <center>
-<!--                <div class="row" align="center">-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                    <div class="col-md-12 col-sm-10 col-xs-12" style="padding-left: 0px;  padding-right: 0px;">-->
-<!--                        <span style="font-size:36px">{{page.title}}</span>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                </div>-->
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:500px" src={{page.thumbnail}}/>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</center>
 
-<!--                <div class="row" align="center">-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">-->
-<!--                        <span style="font-size:24px">{{page.authors}}</span>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                </div>-->
-                <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-                <h2 class="text-center">{{page.conference_short}}</h2>
-                <br><hr>
-                <h2 class="text-center">{{page.authors}}</h2>
-                <h3 class="text-center">{{page.affiliation}}</h3>
-<!--                <div class="row" align="center">-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">-->
-<!--                        <span style="font-size:18px"> <sup>1</sup> {{page.affiliation}} </span>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-1"></div>-->
-<!--                </div>-->
-<!--                <div class="row" align="center">-->
-<!--                    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">-->
-<!--                        <span style="font-size:24px"> {{page.conference_short}} </span>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <div class="row" align="center">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
-                        <span style="font-size:24px"><a href={{page.paper_url}}>[Paper]</a></span>
-                    </div>
-                    <div class="col-md-4 col-sm-5 col-xs-5" style="padding-left: 0px;  padding-right: 0px;">
-                        <span style="font-size:24px"><a href={{page.code}}>[Code]</a></span><br>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-            </center>
-<!--            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}-->
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+	<hr>
 
-<!--       	{% if page.collection == 'projects' %}-->
-<!--	  <p> Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>-->
-	  <p> <b> Abstract: </b> {{ page.excerpt }} </p>
-	  <div class="row">
-    		<div class="col-md-2">
-    		</div>
-		    <div class="col-md-8 col-sm-7 col-xs-10" style="padding-left: 0px;  padding-right: 0px;">
-			  <img src="{{page.thumbnail}}" class="img-fluid" alt=""/>
-                    </div>
-		<div class="col-md-2">
-	        </div>
+	<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
+		<tr>
+			<td>
+                {{page.excerpt}}
+			</td>
+		</tr>
+	</table>
+	<br>
 
-	</div>
-		{% if page.code %}
-		<p> <a href="{{page.code}}"> Code </a> </p>
-		{% endif %}
-		{% if page.pdf %}
-		<p> <a href="{{page.pdf}}"> Paper PDF </a> </p>
-		{% endif %}
-		{% if page.dataset %}
-		<p> {{ page.dataset }} </p>
-		{% endif %}
-		{% if page.poster %}
-		<p> <a href="{{page.poster}}"> Poster <img src="{{page.poster_thumbnail}}" class="img-fluid" alt="" /></a></p>
-		{% endif %}
-	{% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+	<!--
+	<hr>
+	<center><h1>Talk</h1></center>
+	<p align="center">
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+	</p>
 
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
+	<table align=center width=800px>
+		<br>
+		<tr>
+			<center>
+				<span style="font-size:28px"><a href=''>[Slides]</a>
+				</span>
+			</center>
+		</tr>
+	</table>
+	-->
+	<hr>
 
-        </header>
-      {% endunless %}
+	<center><h1>Code</h1></center>
 
-      <section class="page__content" itemprop="text">
-        {{ content }}
-	{% if page.content %}<h3 class="page__content" itemprop="text">{{ page.content | markdownify | remove: "<p>" | remove: "</p>"  }}</h3>{% endif %}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+	<table align=center width=420px>
+		<center>
+			<tr>
+				<td>
+				</td>
+			</tr>
+		</center>
+	</table>
+	{% if page.diagram %}
+	<table align=center width=800px>
+		<tr>
+			<td align=center width=800px>
+				<center>
+					<td><img class="round" style="width:700px" src={{page.diagram}}/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	{% endif %}
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
 
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-      </footer>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=800px>
+		<br>
+		<tr><center>
+			<span style="font-size:28px">&nbsp;<a href={{page.code}}>[GitHub]</a>
+			</center>
+		</span>
+	</table>
+	<br>
+	<hr>
+	<table align=center width=700px>
+		<center><h1>Paper and Supplementary Material</h1></center>
+		<tr>
+			<td><a href={{page.paper_url}}><img class="layered-paper-big" style="height:175px" src={{page.paper_thumbnail}}/></a></td>
+			<td><span style="font-size:14pt">{{page.authors}}<br>
+				<b>{{page.title}}</b><br>
+				In {{page.venue}}<br>
+<!--				(hosted on <a href="https://arxiv.org/abs/1905.08598">ArXiv</a>)<br>-->
+				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
+				<span style="font-size:4pt"><a href=""><br></a>
+				</span>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<table align=center width=900px>
+		<center><h1>Poster</h1></center>
+		<tr>
+			<td width=850px>
+				<center>
+					<a href={{page.poster}}><img class="round" style="width:800px" src={{page.poster_thumbnail}}/></a>
+				</center>
+			</td>
+		</tr>
+	</table>
+	{% if page.youtube %}
+	<hr>
+	<center><h1>Results Video</h1></center>
+	<p align="center">
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/bWTnekWOMZY" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen align="center"></iframe>
+	</p>
+	{% endif %}
+	<table align=center width=600px>
+		<tr>
+			<td>
+				<button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{page.short}}_bibtex">Bibtex</button>
+				  <div id="{{page.short}}_bibtex" class="collapse">
+					  <pre><tt>{{page.bibtex}}</tt></pre>
+				  </div>
+			</td>
+		</tr>
+	</table>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-    </div>
+	<hr>
+	<br>
 
-    {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
-  </article>
+	<table align=center width=900px>
+		<tr>
+			<td width=400px>
+				<left>
+					<center><h1>Acknowledgements</h1></center>
+					This webpage template was borrowed from some <a href="http://richzhang.github.io/colorization">colorful folks</a>.
+				</left>
+			</td>
+		</tr>
+	</table>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      {% if site.data.ui-text[site.locale].related_label %}
-        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      {% endif %}
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-</div>
-
-
+<br>
 </body>
 </html>
 
