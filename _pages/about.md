@@ -25,3 +25,11 @@ News
 - 10/2019: I am attending the [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/) from 3rd to 5th of October. Have a look at the top notch [speakers](https://project.inria.fr/paiss/speakers/) and [program](https://project.inria.fr/paiss/program/)!
 - 09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
 - 09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. Very interesting talks given by keynote speakers!
+
+
+Publications
+======
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
