@@ -47,8 +47,7 @@
 			<a class="thumbnail">
 			  <img src="{{post.thumbnail}}" alt="">
 			</a>
-		  </div>                    
-		
+		  </div>                	
 		
 		  <div class="col-xs-8 col-sm-8 col-md-8">
 			<h3>{{post.title}}</h3>
@@ -74,7 +73,7 @@
 			{% if post.project_page %}
 			<a href="{{post.project_page}}"><button type="button" class="btn btn-primary btn-xs">Project Page</button></a>          
 			{% endif %}
-		<div>
+		</div>
 	   <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
          {% elsif post.collection == 'projects' %}	
 	  <div class="row">
