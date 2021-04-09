@@ -43,7 +43,7 @@
 	  <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
 	{% elsif post.collection == 'publications' %}	
 	  <div class="row">
-		  <div class="col-xs-10 col-sm-4 col-md-4">
+		  <div class="col-xs-10 col-md-auto">
 			<a class="thumbnail">
 			  <img src="{{post.thumbnail}}" alt="">
 			</a>
@@ -74,7 +74,7 @@
 	   <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
          {% elsif post.collection == 'projects' %}	
 	  <div class="row">
-		  <div class="col-xs-10 col-sm-4 col-md-4">
+		  <div class="col-xs-10 col-md-auto">
 			<a class="thumbnail">
 			  <img src="{{post.thumbnail}}" alt="">
 			</a>
