@@ -50,11 +50,13 @@
 		  </div>                	
 		
 		  <div class="col-xs-7 col-sm-7 col-md-7">
-			<h5 style="font-size:4vw">{{post.title}}</h5>
+			<h5 style="font-size:1.5vw">{{post.title}}</h5>
 			{% if post.award %} 
 			<h5><i>({{post.award}})</i></h5>
-			{% endif %}<br>  
-			<h4 style="font-size:2.5vw">{{post.authors}}</h4>
+			{% endif %}<br>
+			</div>
+		  <div class="col-xs-10 col-sm-10 col-md-10">
+			<h4 style="font-size:1vw">{{post.authors}}</h4>
 			  <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{post.short}}_abstract">Abstract</button>
 			  <div id="{{post.short}}_abstract" class="collapse">        
 			  <p class="bg-success">
