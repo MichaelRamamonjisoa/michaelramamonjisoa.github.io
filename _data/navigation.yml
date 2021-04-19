@@ -3,7 +3,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Projects"
+  - title:
     url: /projects/
 
   - title: "Talks"
@@ -15,8 +15,8 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
   
-  - title: "About me"
-    url: /
+#  - title: "About me"
+#    url: /
         
   #- title: "Blog Posts"
   #  url: /year-archive/
