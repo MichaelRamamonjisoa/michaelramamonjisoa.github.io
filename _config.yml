@@ -181,9 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
+#  projects:
+#    output: true
+#    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -229,13 +229,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: project_page
-      author_profile: false
+#  # _projects
+#  - scope:
+#      path: ""
+#      type: projects
+#    values:
+#      layout: project_page
+#      author_profile: false
   # _talks
   - scope:
       path: ""
