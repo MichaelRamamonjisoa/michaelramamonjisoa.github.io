@@ -22,12 +22,13 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervized by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
-- 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted to CVPR 2020.
+- 02/2021: Our paper has been accepted at CVPR 2021. More details coming soon.
+- 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
+- 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted at CVPR 2020.
 - 10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
-- 10/2019: I am attending the [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/) from 3rd to 5th of October. Have a look at the top notch [speakers](https://project.inria.fr/paiss/speakers/) and [program](https://project.inria.fr/paiss/program/)!
+- 10/2019: I attended [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/). 
 - 09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
-- 09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. Very interesting talks given by keynote speakers!
+- 09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. 
 
 
 Publications
