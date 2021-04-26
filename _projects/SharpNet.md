@@ -28,6 +28,7 @@ bibtex: "@article{ramamonjisoa2019sharpnet, <br>
     Journal = {The IEEE International Conference on Computer Vision (ICCV) Workshops}, <br>
     Year = {2019}<br>
     }"
+dataset: 'Access our NYUv2-OC dataset <a href="https://drive.google.com/file/d/1HsQTlAPKzQxyLyh-HLUvNF5-igTXOwSd/view?usp=sharing">here</a>. Check out its newer (complete) version: <a href="https://drive.google.com/open?id=1Fk8uuH3oJJhyCN-4ffD3mdtCq2l4geJc">NYUv2-OC++</a>!'
 code: "https://github.com/MichaelRamamonjisoa/SharpNet"
 pdf: "https://arxiv.org/pdf/1905.08598.pdf"
 paper_url: "https://arxiv.org/abs/1905.08598"
