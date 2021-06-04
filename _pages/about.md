@@ -22,7 +22,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 02/2021: Our paper has been accepted at CVPR 2021. More details coming soon.
+- 02/2021: [WaveletMonoDepth](https://github.com/nianticlabs/wavelet-monodepth) has been accepted at CVPR 2021. We use the sparsity property of wavelets to improve efficiency in Monocular Depth Estimation methods.
 - 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
 - 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted at CVPR 2020.
 - 10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
