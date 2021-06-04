@@ -14,16 +14,16 @@ abstract: "We present a novel method for predicting accurate depths from monocul
           Instead we supervise only the final depth image that is reconstructed through the inverse wavelet transform. 
           We additionally show that wavelet coefficients can be learned in fully self-supervised scenarios, without access to ground-truth depth. 
           Finally, we apply our method to different state-of-the-art monocular depth estimation models, in each case giving similar or better results compared to the original model, while requiring less than half the multiply-adds in the decoder network."
-bibtex: "@inproceedings{ramamonjisoa-2021-wavelet-monodepth,
-          title     = {Single Image Depth Prediction with Wavelet Decomposition},
-          author    = {Ramamonjisoa, Micha{\"{e}}l and
-               Michael Firman and
-               Jamie Watson and
-               Vincent Lepetit and
-               Daniyar Turmukhambetov},
-          booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-          month = {June},
-          year = {2021}
+bibtex: "@inproceedings{ramamonjisoa-2021-wavelet-monodepth,<br>
+          title     = {Single Image Depth Prediction with Wavelet Decomposition}, <br>
+          author    = {Ramamonjisoa, Micha{\"{e}}l and <br>
+               Michael Firman and <br>
+               Jamie Watson and <br>
+               Vincent Lepetit and <br>
+               Daniyar Turmukhambetov}, <br>
+          booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
+          month = {June}, <br>
+          year = {2021} <br>
 }"
     
 code: "https://github.com/nianticlabs/wavelet-monodepth"
