@@ -1,6 +1,6 @@
 ---
 short: 'WaveletMonoDepth'
-title: 'Single Image Depth Estimation using Wavelet Decomposition'
+title: 'Single Image Depth Prediction with Wavelet Decomposition'
 collection: publications
 permalink: /publications/WaveletMonoDepth
 thumbnail: /images/WaveletMonoDepth_thumbnail.gif
