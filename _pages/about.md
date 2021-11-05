@@ -22,7 +22,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 08/2021: I am excited to join Facebook's Mixed Reality team for a research internship this fall!
+- 08/2021: I am excited to join Facebook's Mixed Reality team in Zurich for a research internship this fall!
 - 02/2021: [WaveletMonoDepth](https://github.com/nianticlabs/wavelet-monodepth) has been accepted at CVPR 2021. We use the sparsity property of wavelets to improve efficiency in Monocular Depth Estimation methods.
 - 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
 - 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted at CVPR 2020.
