@@ -22,6 +22,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
+- 01/2022: I gave an invited talk to the Semantic Perception Reading Group of Google Zurich.
 - 08/2021: I am excited to join Meta Reality Labs in Zurich for a research internship this fall!
 - 02/2021: [WaveletMonoDepth](https://github.com/nianticlabs/wavelet-monodepth) has been accepted at CVPR 2021. We use the sparsity property of wavelets to improve efficiency in Monocular Depth Estimation methods.
 - 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
@@ -37,4 +38,3 @@ Publications
 {% for post in site.publications reversed %}
   {% include archive-single-homepage.html %}
 {% endfor %}
-
