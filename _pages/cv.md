@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-[English CV](https://michaelramamonjisoa.github.io/files/CV_EN.pdf)
+[English CV](https://thangckt.github.io/cv/files/CV_En.pdf)
 

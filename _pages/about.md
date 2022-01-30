@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Home"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,23 +14,17 @@ redirect_from:
 Welcome to my webpage!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on Monocular 3D Geometry Estimation, which aims to predict a geometric representation of a 3D scene given a single image. 
+I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST).
+
+<!-- I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on Monocular 3D Geometry Estimation, which aims to predict a geometric representation of a 3D scene given a single image. 
 
 I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) from [ENS Paris-Saclay](http://ens-paris-saclay.fr/). Before that, I obtained joint MS degrees from [Imperial College London](https://www.imperial.ac.uk/) and [Institut d'Optique Graduate School Paristech](https://www.institutoptique.fr/) in Optics, Physics and Signal Processing. 
 
-*I am organizing weekly seminars on Wednesdays, please reach out to me at michael.ramamonjisoa[at]enpc[dot]fr if you wish to present your work to Imagine's students, and permanent researchers.*
+*I am organizing weekly seminars on Wednesdays, please reach out to me at michael.ramamonjisoa[at]enpc[dot]fr if you wish to present your work to Imagine's students, and permanent researchers.* -->
 
 News
 ======
-- 01/2022: I gave an invited talk to the Semantic Perception Reading Group of [Google Zurich](https://research.google/research-areas/machine-perception/).
-- 08/2021: I am excited to join [Meta Reality Labs](https://research.facebook.com/) in Zurich for a research internship this fall!
-- 02/2021: [WaveletMonoDepth](https://github.com/nianticlabs/wavelet-monodepth) has been accepted at CVPR 2021. We use the sparsity property of wavelets to improve efficiency in Monocular Depth Estimation methods.
-- 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
-- 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted at CVPR 2020.
-- 10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
-- 10/2019: I attended [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/). 
-- 09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
-- 09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. 
+- 01/2022: Something ...
 
 
 Publications
