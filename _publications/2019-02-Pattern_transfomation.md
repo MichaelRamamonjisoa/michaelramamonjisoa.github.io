@@ -25,3 +25,4 @@ bibtex: "@article{NGUYEN201917, <br>
 # pdf: "https://arxiv.org/pdf/2002.12730.pdf"
 ---
 
+DOI: [10.1016/j.commatsci.2018.10.023](https://doi.org/10.1016/j.commatsci.2018.10.023)
