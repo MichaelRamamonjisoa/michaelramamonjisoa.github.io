@@ -13,7 +13,9 @@ redirect_from:
 
 Welcome to my webpage!
 
-I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST).
+<!-- I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST). -->
+
+
 
 <!-- I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on Monocular 3D Geometry Estimation, which aims to predict a geometric representation of a 3D scene given a single image. 
 
