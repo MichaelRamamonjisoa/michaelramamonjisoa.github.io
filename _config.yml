@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michaël Ramamonjisoa"
+title                    : "Cao Thang Nguyen"     # Cao Thang Nguyen, PhD Candidate
 title_separator          : "-"
-name                     : &name "Michaël Ramamonjisoa"
-description              : &description "Personal webpage of Michaël Ramamonjisoa, PhD Student in Computer Vision and Deep Learning"
-url                      : https://michaelramamonjisoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Cao Thang Nguyen"
+description              : &description "PhD Candidate in Computational Mechanics, UNIST"
+url                      : https://thangckt.github.io/cv # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "MichaelRamamonjisoa/michaelramamonjisoa.github.io"
+repository               : "thangckt/cv"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "Px8GQoR6BT5vkxW2e_PSRyi4Ok3gf3nDcq4IhTjJGw8"
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               :
+  username               : &facebook "thangckt111"
   app_id                 :
   publisher              :
 og_image                 :  "images/template.png"
@@ -75,41 +75,41 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-174315734-1"
 
 
 # Site Author
 author:
-  name             : "Michaël Ramamonjisoa"
-  avatar           : "photo_github.png"
-  bio              : "PhD student in Computer Vision and Deep Learning"
+  name             : "Cao Thang Nguyen"
+  avatar           : "my_picture3x3.jpg"
+  bio              : "A human, interested in Computational Mechanics"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
-  email            : "ramamonjisoa.michael@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Michael_Ramamonjisoa"
+  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  email            : "caothangckt@gmail.com"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : thangckt111
   foursquare       :
-  github           : "MichaelRamamonjisoa"
+  github           : "thangckt"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "micha%C3%ABl-ramamonjisoa-493a2781"
-  orcid            : 
+  linkedin         :
+  orcid            : https://orcid.org/0000-0001-9826-5397
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "MichaelRamamon"
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
