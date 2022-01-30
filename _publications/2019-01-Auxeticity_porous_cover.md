@@ -26,4 +26,4 @@ bibtex: "@article{https://doi.org/10.1002/pssb.201970010, <br>
 # paperurl: "https://doi.org/10.1002/pssb.201970010"
 ---
 
-[Full text at publisher](https://doi.org/10.1002/pssb.201970010)
+Full text at [publisher](https://doi.org/10.1002/pssb.201970010)
