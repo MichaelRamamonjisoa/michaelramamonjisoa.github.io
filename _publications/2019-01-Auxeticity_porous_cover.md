@@ -23,6 +23,7 @@ bibtex: "@article{https://doi.org/10.1002/pssb.201970010, <br>
 # code: "https://github.com/dulucas/Displacement_Field"
 # project_page: /projects/DisplacementFields
 # pdf: "https://arxiv.org/pdf/2002.12730.pdf"
-paperurl: "https://doi.org/10.1002/pssb.201970010"
+# paperurl: "https://doi.org/10.1002/pssb.201970010"
 ---
 
+[Full text at publisher](https://doi.org/10.1002/pssb.201970010)
