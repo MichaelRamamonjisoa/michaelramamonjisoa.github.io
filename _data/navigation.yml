@@ -3,7 +3,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - url: /projects/
+  # - url: /projects/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -14,7 +14,7 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
   
-  # - title: "About me"
+  #- title: "About me"
   #   url: /
         
   #- title: "Blog Posts"
@@ -27,4 +27,5 @@ main:
   #  url: /markdown/
 
   - title: "Notes"
-   url: https://thangckt.github.io/note
+    url: https://thangckt.github.io/note
+    
