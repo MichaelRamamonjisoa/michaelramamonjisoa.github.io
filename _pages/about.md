@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,6 +12,7 @@ redirect_from:
 
 
 Welcome to my webpage!
+======
 
 <!-- I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST). -->
 
