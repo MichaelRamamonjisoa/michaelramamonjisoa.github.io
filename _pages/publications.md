@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
@@ -11,9 +11,9 @@ author_profile: false
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% if author.orcid %}
+<!-- {% if author.orcid %}
   You can also find my articles on <u><a href="{{author.orcid}}">my ORCID profile</a>.</u>
-{% endif %}
+{% endif %} -->
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
