@@ -35,5 +35,5 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 Publications
 ======
 {% for post in site.publications reversed %}
-  {% include archive-single-homepage.html %}
+  {% include archive-single.html %}
 {% endfor %}
