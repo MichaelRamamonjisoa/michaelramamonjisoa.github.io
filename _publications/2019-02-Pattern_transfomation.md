@@ -3,7 +3,7 @@ short: 'Pattern_transformation'
 title: 'Pattern transformation induced by elastic instability of metallic porous structures'
 collection: publications
 permalink: /publications/2019-02-Pattern_transfomation
-thumbnail: /publications/figure/2019_pattern.gif
+thumbnail: /images/paper_figure/2019_pattern.gif
 date: 2019-02-01
 venue: 'Computational Materials Science'
 authors: '<a href="/cv">Cao Thang Nguyen</a><sup>*</sup>, Duc Tam Ho<sup>*</sup>, Seung Tae Choi, Doo-Man Chun, Sung Youb Kim <br> <small><i>* equal contribution.</i></small>'
