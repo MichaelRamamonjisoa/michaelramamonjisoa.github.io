@@ -31,7 +31,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : "dark" # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'baseurl', 'message']    # url
+  allowedFields          : ['name', 'email', 'url', 'message']    # url
   branch                 : "thang_cv" # "master", "gh-pages"  "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
