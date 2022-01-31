@@ -11,8 +11,7 @@ redirect_from:
 {% include base_path %}
 
 
-Welcome!
-======
+# Welcome!
 
 <!-- I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST). -->
 Welcome to my site.
@@ -28,13 +27,11 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 *I am organizing weekly seminars on Wednesdays, please reach out to me at michael.ramamonjisoa[at]enpc[dot]fr if you wish to present your work to Imagine's students, and permanent researchers.* -->
 
 
-<!-- News
-======
+<!-- # News
 - 01/2022: Something ... -->
 
 
-<!-- Publications
-======
+<!-- # Publications
 {% for post in site.publications reversed %}
   {% include archive-single-homepage.html %}
 {% endfor %} -->
