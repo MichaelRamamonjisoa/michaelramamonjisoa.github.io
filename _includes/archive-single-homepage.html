@@ -76,10 +76,10 @@
 			<a href="{{post.project_page}}"><button type="button" class="btn btn-primary btn-xs">Project Page</button></a>
 			{% endif %}
 	   		<p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-			   
+
 			<!-- thang  modify -->
 			{% if post.paper_link %}
-			<p>Full text at <a href=" {{ post.paper_link }} ">publisher</a></p>
+			<p>Full text at <a href="{{post.paper_link}}">publisher</a></p>
 			{% endif %}
 
 		  </div>
