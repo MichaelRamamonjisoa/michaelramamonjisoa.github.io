@@ -26,4 +26,4 @@ bibtex: "@article{NGUYEN201917, <br>
 paper_url: "https://doi.org/10.1016/j.commatsci.2018.10.023"
 ---
 
-Full text at [publisher](https://doi.org/10.1016/j.commatsci.2018.10.023)
+<!-- Full text at [publisher](https://doi.org/10.1016/j.commatsci.2018.10.023) -->
