@@ -33,8 +33,12 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 - 01/2022: Something ... -->
 
 
-Publications
+<!-- Publications
 ======
 {% for post in site.publications reversed %}
   {% include archive-single-homepage.html %}
-{% endfor %}
+{% endfor %} -->
+
+
+[Publications](https://thangckt.github.io/cv/publications)
+======
