@@ -11,6 +11,10 @@ author_profile: false
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+{% if author.orcid %}
+  You can also find my articles on <u><a href="{{author.orcid}}">my ORCID profile</a>.</u>
+{% endif %}
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
