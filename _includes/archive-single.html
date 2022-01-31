@@ -78,8 +78,8 @@
 	   		<p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
 			   
 			<!-- thang  modify -->
-			{% if post.paper_url %}
-			<p>Full text at <a href=" {{ post.paper_url }} "><u>publisher</u></a></p>
+			{% if post.paper_link %}
+			<p>Full text at <a href=" {{ post.paper_link }} "><u>publisher</u></a></p>
 			{% endif %}
 
 		  </div>

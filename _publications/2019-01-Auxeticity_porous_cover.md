@@ -3,7 +3,7 @@ short: 'Auxeticity_cover'
 title: 'Auxeticity in Metals and Periodic Metallic Porous Structures Induced by Elastic Instabilities (Phys. Status Solidi B 1/2019)'
 collection: publications
 permalink: /publications/2019-01-Auxeticity_porous_cover
-thumbnail: /publications/figure/2019_auxetic_cover.jpg     # https://onlinelibrary.wiley.com/cms/asset/798dd9c1-944c-48f2-8535-d78a2ecc633e/pssb201970010-blkfxd-0001-m.jpg
+thumbnail: https://onlinelibrary.wiley.com/cms/asset/798dd9c1-944c-48f2-8535-d78a2ecc633e/pssb201970010-blkfxd-0001-m.jpg
 date: 2019-02-01
 venue: 'physica status solidi (b)'
 authors: 'Duc Tam Ho<sup>*</sup>, <a href="/cv">Cao Thang Nguyen</a><sup>*</sup>,  Soon-Yong Kwon, Sung Youb Kim <br> <small><i>* equal contribution.</i></small>'
