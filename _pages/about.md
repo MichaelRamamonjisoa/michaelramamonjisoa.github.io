@@ -16,7 +16,7 @@ redirect_from:
 <!-- I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST). -->
 Welcome to my site.
 
-I am one of the populace interested in Computational Solid Mechanics which focuses on the atomistic scale and coarse-grained dynamics.
+I am one of the populace interested in Computational Solid Mechanics which focuses on the atomistic scale, coarse-grained dynamics and rare event.
 
 
 
@@ -33,4 +33,4 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 
 
-# [Publications](https://thangckt.github.io/cv/publications)
+[Publications](https://thangckt.github.io/cv/publications)
