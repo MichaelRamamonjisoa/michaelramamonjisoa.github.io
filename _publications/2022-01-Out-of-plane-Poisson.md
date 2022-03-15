@@ -6,7 +6,7 @@ permalink: /publications/2022-01-Out-of-plane-Poisson
 thumbnail: ./figure/Out-of-plane.png
 date: 2022-03-01
 venue: 'Nanotechnology'
-authors: '<a href="/cv">Cao Thang Nguyen</a><sup>*</sup>, Duc Tam Ho<sup>*</sup>, Seung Tae Choi, Doo-Man Chun, Sung Youb Kim <br> <small><i>* equal contribution.</i></small>'
+authors: 'Ho Viet Hung, Duc Tam Ho, <a href="/cv">Cao Thang Nguyen</a>, Sung Youb Kim'
 abstract: "With its excellent mechanical and thermal properties, bilayer graphane is a promising material for realizing future nanoelectromechanical systems. In this study, we focus on the auxetic behavior of bilayer graphane under external loading along various directions through atomistic simulations. We numerically and theoretically reveal the mechanism of the auxeticity in terms of intrinsic interactions between carbon atoms by constructing bilayer graphane. Given that the origin of the auxeticity is intrinsic rather than extrinsic, the work provides a novel technique to control the dimensions of nanoscale bilayer graphane by simply changing the external conditions without the requirement of complex structural design of the material."
 bibtex: "@article{10.1088/1361-6528/ac5da0,
 	author={Ho, Viet Hung and Ho, Duc Tam and Nguyen, Cao Thang and Kim, Sung Youb},
