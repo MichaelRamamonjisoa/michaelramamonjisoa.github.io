@@ -2,8 +2,8 @@
 short: 'Outofplane'
 title: 'Negative out-of-plane Poisson's ratio of bilayer graphane'
 collection: publications
-permalink: /publications/2022-01-Out-of-plane-Poisson
-thumbnail: ./figure/Out-of-plane.png
+permalink: /publications/2022-01-Out_of_plane_Poisson
+thumbnail: ./figure/Out_of_plane.png
 date: 2022-03-01
 venue: 'Nanotechnology'
 authors: 'Ho Viet Hung, Duc Tam Ho, <a href="/cv">Cao Thang Nguyen</a>, Sung Youb Kim'
