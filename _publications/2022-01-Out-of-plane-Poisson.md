@@ -1,5 +1,5 @@
 ---
-short: 'Out-of-plane'
+short: 'Outofplane'
 title: 'Negative out-of-plane Poisson's ratio of bilayer graphane'
 collection: publications
 permalink: /publications/2022-01-Out-of-plane-Poisson
