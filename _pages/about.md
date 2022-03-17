@@ -18,7 +18,6 @@ I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team]
 
 I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) from [ENS Paris-Saclay](http://ens-paris-saclay.fr/). Before that, I obtained joint MS degrees from [Imperial College London](https://www.imperial.ac.uk/) and [Institut d'Optique Graduate School Paristech](https://www.institutoptique.fr/) in Optics, Physics and Signal Processing. 
 
-*I am organizing weekly seminars on Wednesdays, please reach out to me at michael.ramamonjisoa[at]enpc[dot]fr if you wish to present your work to Imagine's students, and permanent researchers.*
 
 News
 ======
@@ -38,3 +37,7 @@ Publications
 {% for post in site.publications reversed %}
   {% include archive-single-homepage.html %}
 {% endfor %}
+
+Reviewer duties
+======
+CVPR, ECCV, ICRA, IROS, ISMAR, IJCV, PAMI, CVIU, PR-L
