@@ -1,5 +1,5 @@
 ---
-short: 'Pattern_transformation'
+short: '3'
 title: 'Pattern transformation induced by elastic instability of metallic porous structures'
 collection: publications
 permalink: /publications/2019-02-Pattern_transfomation

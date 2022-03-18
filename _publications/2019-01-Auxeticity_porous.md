@@ -1,5 +1,5 @@
 ---
-short: 'Auxeticity'
+short: '1'
 title: 'Auxeticity in Metals and Periodic Metallic Porous Structures Induced by Elastic Instabilities'
 collection: publications
 permalink: /publications/2019-01-Auxeticity_porous
