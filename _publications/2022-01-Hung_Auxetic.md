@@ -7,16 +7,23 @@ thumbnail: ./figure/Out_of_plane.png
 date: 2022-03-01
 venue: 'Nanotechnology'
 authors: 'Viet Hung Ho, Duc Tam Ho,<a href="/cv">Cao Thang Nguyen</a>,Sung Youb Kim'
-abstract: "With its excellent mechanical and thermal properties, bilayer graphane is a promising material for realizing future nanoelectromechanical systems. In this study, we focus on the auxetic behavior of bilayer graphane under external loading along various directions through atomistic simulations. We numerically and theoretically reveal the mechanism of the auxeticity in terms of intrinsic interactions between carbon atoms by constructing bilayer graphane. Given that the origin of the auxeticity is intrinsic rather than extrinsic, the work provides a novel technique to control the dimensions of nanoscale bilayer graphane by simply changing the external conditions without the requirement of complex structural design of the material."
-bibtex: "@article{10.1088/1361-6528/ac5da0, <br>
-	author={Ho, Viet Hung and Ho, Duc Tam and Nguyen, Cao Thang and Kim, Sung Youb}, <br>
-	title={Negative out-of-plane Poisson’s ratio of bilayer graphane}, <br>
-	journal={Nanotechnology}, <br>
-	url={http://iopscience.iop.org/article/10.1088/1361-6528/ac5da0}, <br>
-	year={2022}, <br>
-	}"
+abstract: "Uniform pattern transformation can be observed in some structures with periodic arrays of pores at a critical compressive load because of buckling of the constituents of the structures. This pattern transformation can be exploited to design structures for various potential applications. Previous studies have focused on the instability of periodic porous structures of which the base materials were elastomers, and applications of these structures may be narrow because of the elastomer limitations of low melting temperature and stiffness. In addition, material failures such as plasticity and fracture were rarely discussed in previous studies. Here, we introduce metals as the base materials for some periodic metallic porous nanostructures (PMPNs). Our molecular dynamics simulation results show that PMPNs can exhibit pattern transformation at a critical strain because of buckling. In addition, we develop a simple formulation by incorporating the effect of surface on the Euler–Bernoulli beam theory to predict the critical load for the buckling of nanostructures. The prediction of our model is in good agreement with the molecular dynamics simulation results. When the applied strain is sufficiently large, the nanoscale metals experience dislocation-medicated plasticity. We also show that the pore shape of the PMPNs strongly affects the characteristics of the periodic metallic structures including the effective Young’s modulus, critical strain for micro-buckling, and critical strain for plasticity."
+bibtex: "@article{NGUYEN201917, <br>
+        title = {Pattern transformation induced by elastic instability of metallic porous structures}, <br>
+        journal = {Computational Materials Science}, <br>
+        volume = {157}, <br>
+        pages = {17-24}, <br>
+        year = {2019}, <br>
+        issn = {0927-0256}, <br>
+        doi = {https://doi.org/10.1016/j.commatsci.2018.10.023}, <br>
+        url = {https://www.sciencedirect.com/science/article/pii/S0927025618306955}, <br>
+        author = {Cao Thang Nguyen and Duc Tam Ho and Seung Tae Choi and Doo-Man Chun and Sung Youb Kim}, <br>
+        keywords = {Porous structure, Buckling, Metals, Molecular dynamics simulation}, <br>
+        }"
 # code: "https://github.com/dulucas/Displacement_Field"
 # project_page: /projects/DisplacementFields
 # pdf: "https://arxiv.org/pdf/2002.12730.pdf"
-paper_link: "https://iopscience.iop.org/article/10.1088/1361-6528/ac5da0/meta"
+paper_link: "https://doi.org/10.1016/j.commatsci.2018.10.023"
 ---
+
+<!-- Full text at [publisher](https://doi.org/10.1016/j.commatsci.2018.10.023) -->
