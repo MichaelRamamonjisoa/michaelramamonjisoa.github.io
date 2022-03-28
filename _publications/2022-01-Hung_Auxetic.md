@@ -1,6 +1,6 @@
 ---
 short: '4'
-title: '1'
+title: 'Test'
 collection: publications
 permalink: /publications/2022-01-Hung_Auxetic
 thumbnail: ./figure/Out_of_plane.png
