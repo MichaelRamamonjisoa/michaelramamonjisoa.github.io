@@ -1,8 +1,8 @@
 ---
 short: '4'
-title: 'Negative out-of-plane Poisson's ratio of bilayer graphane'
+title: '1'
 collection: publications
-permalink: /publications/2019-02-Pattern_transfomation
+permalink: /publications/2022-01-Hung_Auxetic
 thumbnail: ./figure/Out_of_plane.png
 date: 2022-03-01
 venue: 'Nanotechnology'
