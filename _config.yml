@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               : &facebook "thangckt5"
+  username               : &facebook 
   app_id                 :
   publisher              :
 og_image                 :  "images/template.png"
@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : thangckt111
+  facebook         : thangckt5
   foursquare       :
   github           : # "thangckt"
   google_plus      :
