@@ -1,0 +1,16 @@
+---
+short: '3'
+title: 'An enhanced sampling approach for computing the temperature-dependent free energy of solid surface and solid-liquid interface'
+collection: publications
+permalink: /publications/2022-05-Surface_energy
+thumbnail: ./figure/2022_surface_energy.png
+date: 2022-04-01
+venue: 'private arxiv'
+authors: '<a href="/cv">Cao Thang Nguyen</a>, Sung Youb Kim.'
+abstract: "The solid surface free energy γs and the solid-liquid interface free energy $\gamma_{sl}$ are fundamental quantities that control many important thermodynamics processes. The experimental data for these quantities are not well documented, therefore computational approaches play important role in the calculation of these interface properties. We present in this report an efficient approach based on an enhanced sampling method to compute both values of γs and γsl at expected temperatures. We construct the free energy profile along with a predefined collective variable during either melting transition or the cleavage process, then extract the values of γs and γsl from the free energy excess that relates to the formation and existence of the solid surface or solid-liquid interface. We apply the method to compute the temperature dependence of γs and γsl for the (100) and (110) surfaces/interfaces of an EAM model of copper. This approach is robust and straightforward to apply for the modern models of atomic interaction as well the complex systems."
+bibtex: " "
+# code: "https://github.com/dulucas/Displacement_Field"
+# project_page: /projects/DisplacementFields
+# pdf: "https://arxiv.org/pdf/2002.12730.pdf"
+paper_link: "https://thangckt.github.io/note/"
+---
