@@ -1,5 +1,5 @@
 ---
-short: '3'
+short: '7'
 title: 'Mechanical vs. thermodynamic melting of metals from the mean-force dynamics calculation'
 collection: publications
 permalink: /publications/2022-04-Mechanical_melting

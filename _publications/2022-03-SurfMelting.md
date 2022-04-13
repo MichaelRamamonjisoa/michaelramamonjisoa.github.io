@@ -1,5 +1,5 @@
 ---
-short: '3'
+short: '6'
 title: 'Coalescence-enhanced melting in the incipient stage of surface melting'
 collection: publications
 permalink: /publications/2022-03-SurfMelting

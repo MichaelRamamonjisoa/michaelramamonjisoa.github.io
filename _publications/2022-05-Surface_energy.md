@@ -1,5 +1,5 @@
 ---
-short: '3'
+short: '8'
 title: 'An enhanced sampling approach for computing the temperature-dependent free energy of solid surface and solid-liquid interface'
 collection: publications
 permalink: /publications/2022-05-Surface_energy
