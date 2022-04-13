@@ -3,7 +3,7 @@ short: '3'
 title: 'Coalescence-enhanced melting in the incipient stage of surface melting'
 collection: publications
 permalink: /publications/2022-03-SurfMelting
-thumbnail: ./figure/2022_surfMelting.gif
+thumbnail: ./figure/2022_surfMelting.png
 date: 2022-04-01
 venue: 'private arxiv'
 authors: '<a href="/cv">Cao Thang Nguyen</a>, Duc Tam Ho, Sung Youb Kim.'
