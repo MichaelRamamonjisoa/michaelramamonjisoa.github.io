@@ -3,7 +3,7 @@ short: '2022_06'
 title: 'An enhanced sampling approach for computing the temperature-dependent free energy of solid surface and solid-liquid interface'
 collection: publications
 permalink: /publications/2022-05-Surface_energy
-thumbnail: ./figure/2022_surface_energy.png
+thumbnail: ./figure/2022_surface_energy.gif
 date: 2022-04-01
 venue: 'private arxiv'
 authors: '<a href="/cv">Cao Thang Nguyen</a>, Sung Youb Kim.'
