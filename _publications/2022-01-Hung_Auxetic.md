@@ -1,5 +1,5 @@
 ---
-short: '4'
+short: '2022_01'
 title: "Negative out-of-plane Poisson's ratio of bilayer graphane"
 collection: publications
 permalink: /publications/2022-01-Hung_Auxetic

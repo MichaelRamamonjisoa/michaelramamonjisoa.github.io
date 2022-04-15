@@ -1,5 +1,5 @@
 ---
-short: '5'
+short: '2022_03'
 title: 'Finite-size effect on the thermodynamics melting predicted by free energy approach'
 collection: publications
 permalink: /publications/2022-02-Finite_size
