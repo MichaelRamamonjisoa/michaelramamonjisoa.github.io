@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+#   - title: "Publications"
+#     url: /publications/
 
   # - url: /projects/
 
@@ -28,4 +28,7 @@ main:
 
   - title: "Notes"
     url: https://thangckt.github.io/note
+    
+  - title: "thatool"
+    url: https://thangckt.github.io/thatool
     
