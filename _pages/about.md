@@ -33,4 +33,4 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 
 
-#### [Publications](https://thangckt.github.io/publications)
+#### [Publications](https://thangckt.github.io/404)               <!-- (https://thangckt.github.io/publications)  -->
