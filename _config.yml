@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cao Thang Nguyen"     # Cao Thang Nguyen, PhD Candidate
+title                    : "Thang Nguyen"     # Cao Thang Nguyen, PhD Candidate
 title_separator          : "-"
-name                     : &name "Cao Thang Nguyen"
+name                     : &name "Thang Nguyen"
 description              : &description "PhD Candidate in Computational Mechanics, UNIST"
 url                      : "https://thangckt.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Cao Thang Nguyen"
+  name             : "Thang Nguyen"
   avatar           : "my_pic.jpg"
-  bio              : "Computational Nanomechanics"
+  bio              : a human     # "Computational Nanomechanics"
   location         : 
   employer         :
   pubmed           : 
