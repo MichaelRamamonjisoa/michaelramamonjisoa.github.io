@@ -13,7 +13,7 @@ redirect_from:
 
 # Welcome!
 
-Welcome to my site.
+Welcome to my site. This page is just for fun :)
 
 <!-- I am Cao Thang Nguyen, a PhD candidate in Computational Mechanics at Ulsan National Institute of Science & Technology (UNIST). 
 
