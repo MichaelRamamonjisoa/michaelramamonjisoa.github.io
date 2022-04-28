@@ -3,8 +3,6 @@ layout: archive
 title: "Note"
 permalink: /notes/
 author_profile: false
-redirect_from:
-  - /note
 ---
 
 {% include base_path %}
