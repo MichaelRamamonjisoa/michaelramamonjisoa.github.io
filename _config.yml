@@ -245,15 +245,15 @@ defaults:
       layout: talk
       author_profile: true
       share: false
-  _note
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: false
-      comments: true
+#   _note
+#   - scope:
+#       path: ""
+#       type: talks
+#     values:
+#       layout: talk
+#       author_profile: true
+#       share: false
+#       comments: true
   # _portfolio
   #- scope:
   #    path: ""
