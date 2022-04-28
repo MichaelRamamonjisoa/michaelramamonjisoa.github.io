@@ -26,8 +26,8 @@ main:
   #- title: "Guide"
   #  url: /markdown/
 
-    - title: "Note"
-      url: /thang_note/
+    - title: "Notes"
+      url: /note/
 
   # - title: "Notes"
   #   url: https://thangckt.github.io/note
