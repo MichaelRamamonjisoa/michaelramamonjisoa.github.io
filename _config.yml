@@ -251,7 +251,7 @@ defaults:
       layout: talk
       author_profile: true
       share: false
-  _notes
+  # _notes
   - scope:
       path: ""
       type: talks
