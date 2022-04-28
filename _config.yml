@@ -32,7 +32,7 @@ comments:
     colorscheme          : "light" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']    # url
-  branch                 : "thang_cv" # "master", "gh-pages"  "gh-pages"
+  branch                 : "thang_page" # "master", "gh-pages"  "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         : thangckt5
   foursquare       :
-  github           : # "thangckt"
+  github           : thangckt
   google_plus      :
   keybase          :
   instagram        :
@@ -176,21 +176,21 @@ kramdown:
 
 # Collections
 collections:
-  #teaching:
-  #  output: true
-  #  permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  # projects:
-  #   output: true
-  #   permalink: /:collection/:path/
-  # talks:
-  #   output: true
-  #   permalink: /:collection/:path/
-  #portfolio:
-  #  output: true
-  #  permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+#   projects:
+#     output: true
+#     permalink: /:collection/:path/
   
 
 
@@ -245,7 +245,6 @@ defaults:
       layout: talk
       author_profile: true
       share: false
-
   # _note
   # - scope:
   #     path: ""
@@ -255,7 +254,6 @@ defaults:
   #     author_profile: true
   #     share: false
   #     comments: true
-  
   # _portfolio
   #- scope:
   #    path: ""
