@@ -26,9 +26,12 @@ main:
   #- title: "Guide"
   #  url: /markdown/
 
-  - title: "Notes"
-    url: https://thangckt.github.io/note
+    - title: "Note"
+      url: /thang_note/
+
+  # - title: "Notes"
+  #   url: https://thangckt.github.io/note
     
-  - title: "thatool"
-    url: https://thangckt.github.io/thatool
+  # - title: "thatool"
+  #   url: https://thangckt.github.io/thatool
     
