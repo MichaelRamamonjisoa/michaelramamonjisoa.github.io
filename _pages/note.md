@@ -8,5 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-[English CV](https://thangckt.github.io/cv/files/CV_En.pdf)
+
+
+{% include list.liquid all=true %}
+
 
