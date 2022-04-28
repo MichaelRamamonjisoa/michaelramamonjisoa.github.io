@@ -11,6 +11,6 @@ redirect_from:
 
 
 <!-- include all .md files -->
-{% for post in site.talks reversed %}
+{% for post in site.notes reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
