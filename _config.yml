@@ -252,9 +252,9 @@ defaults:
   # _notes
   - scope:
       path: ""
-      type: talks
+      type: posts
     values:
-      layout: talk
+      layout: single
       author_profile: true
       read_time: true
       comments: true
