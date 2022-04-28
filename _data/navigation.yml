@@ -28,8 +28,7 @@ main:
 
     - title: "Notes"
       url: /note/
-          - subtitle: "Note1"
-            url: /note1/
+   
 
   # - title: "Notes"
   #   url: https://thangckt.github.io/note
