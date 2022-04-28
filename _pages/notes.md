@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Note"
 permalink: /notes/
 author_profile: false
