@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Note"
-permalink: /note/
+permalink: /notes/
 author_profile: false
 redirect_from:
   - /note
@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-
 <!-- include all .md files -->
-{% for post in site.thangNotes reversed %}
+{% for post in site.notes reversed %}
   {% include archive-single.html %}
 {% endfor %}
