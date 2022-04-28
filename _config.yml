@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Thang Nguyen"     # Cao Thang Nguyen, PhD Candidate
 title_separator          : "-"
 name                     : &name "Thang Nguyen"
-description              : &description "PhD Candidate in Computational Mechanics, UNIST"
+description              : &description ""  #"PhD Candidate in Computational Mechanics, UNIST"
 url                      : "https://thangckt.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "thangckt/thangckt.github.io"
@@ -245,6 +245,16 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+
+  # _thang_note
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: false
+      comments: true
   
   # _portfolio
   #- scope:
