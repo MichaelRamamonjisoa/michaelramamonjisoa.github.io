@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: "Note"
-permalink: /thang_note/
-author_profile: true
+permalink: /note/
+author_profile: false
 redirect_from:
   - /note
 ---
