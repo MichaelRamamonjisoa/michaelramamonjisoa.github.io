@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-{% include list.liquid all=true %}
-
-
+<!-- include all .md files -->
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
