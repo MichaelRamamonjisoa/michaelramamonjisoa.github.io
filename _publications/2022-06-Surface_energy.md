@@ -12,5 +12,5 @@ bibtex: " "
 # code: "https://github.com/dulucas/Displacement_Field"
 # project_page: /projects/DisplacementFields
 # pdf: "https://arxiv.org/pdf/2002.12730.pdf"
-paper_link: "https://thangckt.github.io/notes/"
+paper_link: "https://thangckt.github.io/note/"
 ---
