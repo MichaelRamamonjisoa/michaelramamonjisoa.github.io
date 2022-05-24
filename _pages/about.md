@@ -21,6 +21,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
+- 05/2022: I am honoured to be acknowledged as [Outstanding Reviewer](https://cvpr2022.thecvf.com/outstanding-reviewers) for CVPR 2022.
 - 05/2022: I will be attending [ICVSS](https://iplab.dmi.unict.it/icvss2022/) this summer!
 - 01/2022: I gave an invited talk to the Semantic Perception Reading Group of [Google Zurich](https://research.google/research-areas/machine-perception/).
 - 08/2021: I am excited to join [Meta Reality Labs](https://research.facebook.com/) in Zurich for a research internship this fall!
@@ -41,4 +42,4 @@ Publications
 
 Reviewer duties
 ======
-CVPR, ECCV, ICRA, IROS, ISMAR, IJCV, PAMI, CVIU, PR-L, RA-L
+CVPR[*](https://cvpr2022.thecvf.com/outstanding-reviewers), ECCV, ICRA, IROS, ISMAR, IJCV, PAMI, CVIU, PR-L, RA-L
