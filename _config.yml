@@ -48,10 +48,10 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  
+
 
 # SEO Related
-google_site_verification : 
+google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -60,7 +60,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               : &facebook 
+  username               : &facebook
   app_id                 :
   publisher              :
 og_image                 :  "images/template.png"
@@ -84,11 +84,11 @@ author:
   name             : "Thang Nguyen"
   avatar           : "my_pic.jpg"
   bio              : a human     # "Computational Nanomechanics"
-  location         : 
+  location         :
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    :  "https://scholar.google.com/citations?user=vuAOQjkAAAAJ&hl=en"
-  email            : "caothangckt@gmail.com"
+  email            : "thangckt@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -195,7 +195,7 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
-  
+
 
 
 # Defaults
@@ -269,7 +269,7 @@ defaults:
   #    author_profile: true
   #    share: true
   #    comment: true
-  
+
 
 # Sass/SCSS
 sass:
