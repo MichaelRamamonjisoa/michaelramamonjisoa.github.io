@@ -6,33 +6,33 @@ main:
   # - url: /projects/
 
   # - title: "Talks"
-  #   url: /talks/    
+  #   url: /talks/
 
   #- title: "Teaching"
-  #  url: /teaching/    
-    
+  #  url: /teaching/
+
   #- title: "Portfolio"
   #  url: /portfolio/
-  
+
   #- title: "About me"
   #   url: /
-        
+
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
+
   # - title: "CV"
   #   url: /cv/
-    
+
   #- title: "Guide"
   #  url: /markdown/
 
     # - title: "Notes"
     #   url: /notes/
-   
+
 
   - title: "Notes"
-    url: https://thangckt.github.io/note
-    
+    url: https://thangckt.github.io/rundoc
+
   # - title: "thatool"
   #   url: https://thangckt.github.io/thatool
-    
+
