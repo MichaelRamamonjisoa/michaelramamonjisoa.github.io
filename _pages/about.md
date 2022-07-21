@@ -11,6 +11,9 @@ redirect_from:
 {% include base_path %}
 
 
+<meta name='LTF_verify' content='28f094741fa78ee9caf539a1fbcb9163'/>
+
+
 # Welcome!
 
 Welcome to my site. This page is just for fun :)
