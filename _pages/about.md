@@ -21,6 +21,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
+- 07/2022: [MonteBoxFinder](https://michaelramamonjisoa.github.io/projects/MonteBoxFinder) has been accepted at ECCV 2022.
 - 05/2022: I am honoured to be acknowledged as [Outstanding Reviewer](https://cvpr2022.thecvf.com/outstanding-reviewers) for CVPR 2022.
 - 05/2022: I will be attending [ICVSS](https://iplab.dmi.unict.it/icvss2022/) this summer!
 - 01/2022: I gave an invited talk to the Semantic Perception Reading Group of [Google Zurich](https://research.google/research-areas/machine-perception/).
