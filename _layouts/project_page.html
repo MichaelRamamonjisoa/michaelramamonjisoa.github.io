@@ -237,6 +237,8 @@
 		</tr>
 	</table>
 	-->
+
+	{% if page.diagram %}
 	<hr>
 
 	<center><h1>Method</h1></center>
@@ -249,7 +251,6 @@
 			</tr>
 		</center>
 	</table>
-	{% if page.diagram %}
 	<table align=center width=800px>
 		<tr>
 			<td align=center width=800px>
@@ -294,16 +295,22 @@
 	</table>
 	<br>
 	<hr>
+	{% if page.poster %}
 	<table align=center width=900px>
 		<center><h1>Poster</h1></center>
 		<tr>
 			<td width=850px>
 				<center>
+				{% if page.poster_thumbnail %}
 					<a href="{{page.poster}}"><img class="round" style="width:800px" src="{{page.poster_thumbnail}}"/></a>
+				{% else %}
+					<a href="{{page.poster}}"><img class="round" style="width:800px" src="Poster"/></a>
+				{% endif %}
 				</center>
 			</td>
 		</tr>
 	</table>
+	{% endif %}
 	{% if page.youtube %}
 	<hr>
 	<center><h1>Video</h1></center>
