@@ -4,7 +4,7 @@ title: 'MonteBoxFinder: Detecting and Filtering Primitives to Fit a Noisy Point 
 collection: projects
 permalink: /projects/MonteBoxFinder
 thumbnail: /images/MonteBoxFinder_thumbnail.gif
-date: 26-07-2021
+date: 26-07-2022
 venue: 'European Conference on Computer Vision (ECCV)'
 authors: '<a href="https://michaelramamonjisoa.github.io">Michaël Ramamonjisoa</a><sup>1</sup>, <a href="https://www.tugraz.at/institute/icg/research/team-lepetit/people/sinisa-stekovic/">Sinisa Stekovic</a><sup>2</sup> and <a href="https://vincentlepetit.github.io">Vincent Lepetit</a><sup>1,2</sup>'
 affiliation: '<sup>1</sup>LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS, <br> <sup>2</sup> Institute for Computer Graphics and Vision, Graz University of Technology'
