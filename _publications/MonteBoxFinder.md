@@ -17,6 +17,6 @@ bibtex: "@article{ramamonjisoa2022mbf, <br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/MonteBoxFinder"
 pdf: "https://github.com/MichaelRamamonjisoa/MonteBoxFinder"
-project_page: "https://github.com/MichaelRamamonjisoa/projects/MonteBoxFinder"
+project_page: "https://michaelramamonjisoa.github.io/projects/MonteBoxFinder"
 ---
 
