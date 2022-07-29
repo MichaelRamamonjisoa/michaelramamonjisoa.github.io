@@ -17,8 +17,8 @@ bibtex: "@article{ramamonjisoa2022mbf, <br>
     Year = {2022}<br>
     }"
 code: "https://github.com/MichaelRamamonjisoa/MonteBoxFinder"
-pdf: "https://github.com/MichaelRamamonjisoa/MonteBoxFinder"
-paper_url: "https://github.com/MichaelRamamonjisoa/MonteBoxFinder"
+pdf: "https://arxiv.org/pdf/2207.14268.pdf"
+paper_url: "https://arxiv.org/abs/2207.14268"
 diagram: /files/MonteBoxFinder_diagram.png
 paper_thumbnail: /files/Paper_MonteBoxFinder_thumbnail.png
 ---
