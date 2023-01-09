@@ -21,7 +21,7 @@ I obtained my Masters degree in Computer Science at Warsaw University of Technol
 
 News
 ======
-- 12/2022: Our research proposal for OPUS 23/ST6 titled "Dynamic neural networks for efficient machine learning" got 3-year funding.
+- 12/2022: Our research proposal for OPUS 23/ST6 titled "Dynamic neural networks for efficient machine learning" received a 3-year funding from Polish National Science Centre.
 - 11/2022: I am attending NeurIPS 2022 and presenting our work during [SSL Workshop](https://sslneurips22.github.io/pages/accepted-paper.html).
 - 10/2022: Our paper [Towards Unsupervised VQA: Do off-the-shelf features know how to reason?](https://arxiv.org/abs/2212.10292) got accepted to [NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice](https://sslneurips22.github.io/)! Thanks Tom, Tomasz and David!
 - 09/2022: I received [Campus France](https://www.pologne.campusfrance.org/pl/program-stypendialny-sshn-na-pobyt-badawczy) scholarship for another 2-month visit at ENPC in Paris.
