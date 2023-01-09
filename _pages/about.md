@@ -26,6 +26,7 @@ News
 - 10/2022: Our paper [Towards Unsupervised VQA: Do off-the-shelf features know how to reason?](https://arxiv.org/abs/2212.10292) got accepted to [NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice](https://sslneurips22.github.io/)! Thanks Tom, Tomasz and David!
 - 09/2022: I received [Campus France](https://www.pologne.campusfrance.org/pl/program-stypendialny-sshn-na-pobyt-badawczy) scholarship for another 2-month visit at ENPC in Paris.
 - 07/2022: Starting my summer research internship at Booking.com in Amsterdam!
+- 03/2022: My project proposal got accepted to NVIDIA Academic Hardware Grant Program and I received a gpu card to support my research. Thanks NVIDIA!
 - 10/2021: [EgoNN](https://github.com/jac99/Egonn) got accepted to Robotics and Automation Letters (RA-L). Check the paper [here](https://ieeexplore.ieee.org/document/9645340).  
 - 09/2021: I am visiting [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris this fall to work on unsupervised image representations for VQA with [David Picard](https://davidpicard.github.io/).
 - 03/2021: Our work on [Lidar and Monocular Image Fusion for Place Recognition](https://github.com/jac99/MinkLocMultimodal) got accepted to IJCNN 2021. ([paper](https://ieeexplore.ieee.org/document/9533373))
