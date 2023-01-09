@@ -5,7 +5,7 @@ collection: publications
 thumbnail: /images/overview.jpeg
 permalink: /publications/Minkloc++
 
-date: 03-2021
+date: 21-03-2021
 venue: 'International Joint Conference on Neural Networks (IJCNN)'
 authors: '<a >Jacek Komorowski, Monika Wysoczanska, and Tomasz Trzcisnki</a>'
 conference_short: 'IJCNN 2021'
