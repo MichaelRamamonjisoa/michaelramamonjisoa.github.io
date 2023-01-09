@@ -4,7 +4,6 @@ title: 'MinkLoc++: Lidar and Monocular Image Fusion for Place Recognition'
 collection: publications
 thumbnail: /images/overview.jpeg
 permalink: /publications/Minkloc++
-
 date: 21-03-2021
 venue: 'International Joint Conference on Neural Networks (IJCNN 2021)'
 authors: 'Jacek Komorowski, Monika Wysoczanska, and Tomasz Trzcinski'
