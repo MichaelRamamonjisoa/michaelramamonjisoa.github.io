@@ -1,7 +1,7 @@
 ---
 short: 'EgoNN'
 title: 'EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale'
-# thumbnail: /images/high_level_diagram_zoomed2.pdf
+thumbnail: /images/egonn.png
 collection: publications
 permalink: /publications/EgoNN
 date: 2-04-2022
