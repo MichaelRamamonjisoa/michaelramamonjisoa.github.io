@@ -1,7 +1,7 @@
 ---
 short: 'TowardsVQA'
 title: 'Towards Unsupervised Visual Reasoning: Do Off-The-Shelf Features Know How to Reason?'
-# thumbnail: /images/pipeline(3).pdf
+thumbnail: /images/towardsvqa.png
 collection: publications
 permalink: /publications/TowardsVQA
 date: 2-12-2022
