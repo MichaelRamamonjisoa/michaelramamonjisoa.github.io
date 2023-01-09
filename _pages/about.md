@@ -14,26 +14,21 @@ redirect_from:
 Welcome to my webpage!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. I am working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a current focus on Monocular 3D Geometry Estimation, which aims to predict a geometric representation of a 3D scene given a single image. 
+I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. My research revolves around Multimodal Learning, with particular focus on complex reasoning tasks. I work under the supervision of [Tomasz Trzcinski](http://staff.ii.pw.edu.pl/~ttrzcins/). 
 
-I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) from [ENS Paris-Saclay](http://ens-paris-saclay.fr/). Before that, I obtained joint MS degrees from [Imperial College London](https://www.imperial.ac.uk/) and [Institut d'Optique Graduate School Paristech](https://www.institutoptique.fr/) in Optics, Physics and Signal Processing. 
+I received my Masters degree in Computer Science at Warsaw University of Technology and BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
 
 News
 ======
-- 09/2022: I joined [Meta AI](https://ai.facebook.com/research/) as an AI Research Engineer.
-- 07/2022: [MonteBoxFinder](https://michaelramamonjisoa.github.io/projects/MonteBoxFinder) has been accepted at ECCV 2022.
-- 05/2022: I am honoured to be acknowledged as [Outstanding Reviewer](https://cvpr2022.thecvf.com/outstanding-reviewers) for CVPR 2022.
-- 05/2022: I will be attending [ICVSS](https://iplab.dmi.unict.it/icvss2022/) this summer!
-- 01/2022: I gave an invited talk to the Semantic Perception Reading Group of [Google Zurich](https://research.google/research-areas/machine-perception/).
-- 08/2021: I am excited to join [Meta Reality Labs](https://research.facebook.com/) in Zurich for a research internship this fall!
-- 02/2021: [WaveletMonoDepth](https://github.com/nianticlabs/wavelet-monodepth) has been accepted at CVPR 2021. We use the sparsity property of wavelets to improve efficiency in Monocular Depth Estimation methods.
-- 11/2020: I finished my 4 months internship at [Niantic](https://research.nianticlabs.com/) (London), where I was supervised by [Dr. Daniyar Turmukhambethov](https://dantkz.github.io/about/) and [Dr. Michael Firman](http://www.michaelfirman.co.uk/).
-- 02/2020: Our [paper](https://michaelramamonjisoa.github.io/projects/DisplacementFields) has been accepted at CVPR 2020.
-- 10/2019: I am attending [ICCV 2019](http://iccv2019.thecvf.com/) in Seoul to present my paper [SharpNet](https://arxiv.org/pdf/1905.08598). Meet me at the [3D Reconstruction in the Wild Workshop](http://3drw2019.dgcv.nii.ac.jp/) this Monday 28th afternoon!
-- 10/2019: I attended [PRAIRIE AI Summer School (PAISS)](https://project.inria.fr/paiss/). 
-- 09/2019: Our SyntheT-Less dataset presented at [3DV 2019](http://3dv19.gel.ulaval.ca/) ([paper](https://arxiv.org/pdf/1908.07640.pdf)) is now available [here](https://github.com/MichaelRamamonjisoa/SyntheT-Less).
-- 09/2019: I attended [3DV 2019](http://3dv19.gel.ulaval.ca/) in Quebec City. 
+- 12/2022: Our research proposal for OPUS 23/ST6 titled "Dynamic neural networks for efficient machine learning" got 3-year funding.
+- 11/2022: I am attending NeurIPS 2022 and presenting our work during SSL Workshop.
+- 10/2022: Our paper [Towards Unsupervised VQA: Do off-the-shelf features know how to reason?](https://arxiv.org/abs/2212.10292) got accepted to [NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice](https://sslneurips22.github.io/)! Thanks Tom, Tomasz and David!
+- 09/2022: I received [Campus France](https://www.pologne.campusfrance.org/pl/program-stypendialny-sshn-na-pobyt-badawczy) scholarship for another 2-month visit at ENPC in Paris.
+- 07/2022: Starting my summer research internship at Booking.com in Amsterdam!
+- 10/2021: [EgoNN](https://github.com/jac99/Egonn) got accepted to Robotics and Automation Letters (RA-L). Check the paper [here](https://ieeexplore.ieee.org/document/9645340).  
+- 09/2021: I am visiting [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris this fall to work on unsupervised image representations with for VQA [David Picard](https://davidpicard.github.io/).
+- 03/2021: Our work on [Lidar and Monocular Image Fusion for Place Recognition](https://github.com/jac99/MinkLocMultimodal) got accepted to IJCNN 2021. ([paper](https://ieeexplore.ieee.org/document/9533373))
 
 
 Publications
@@ -41,7 +36,3 @@ Publications
 {% for post in site.publications reversed %}
   {% include archive-single-homepage.html %}
 {% endfor %}
-
-Reviewer duties
-======
-CVPR[*](https://cvpr2022.thecvf.com/outstanding-reviewers), ECCV, ICRA, IROS, ISMAR, IJCV, PAMI, CVIU, PR-L, RA-L

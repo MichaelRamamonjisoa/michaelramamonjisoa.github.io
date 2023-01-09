@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michaël Ramamonjisoa"
+title                    : "Monika Wysoczanska"
 title_separator          : "-"
-name                     : &name "Michaël Ramamonjisoa"
-description              : &description "Personal webpage of Michaël Ramamonjisoa, PhD Student in Computer Vision and Deep Learning"
-url                      : https://michaelramamonjisoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Monika Wysoczanska"
+description              : &description "Personal webpage of Monika Wysoczanska, PhD Student in Computer Vision and Deep Learning"
+url                      : https://mwysoczanska.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "MichaelRamamonjisoa/michaelramamonjisoa.github.io"
+repository               : "wysoczanska/mwysoczanska.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Michaël Ramamonjisoa"
-  avatar           : "photo_github.png"
+  name             : "Monika Wysoczanska"
+  avatar           : "photo_github.jpeg"
   bio              : "PhD student in Computer Vision and Deep Learning"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.fr/citations?user=ma6gjUEAAAAJ&hl=en"
-  email            : "ramamonjisoa.michael@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Michael_Ramamonjisoa"
+  googlescholar    : "https://scholar.google.com/citations?user=yPLe7GUAAAAJ&hl=en&oi=sra"
+  email            : "moniawysoczanska@gmail.com"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "MichaelRamamonjisoa"
+  github           : "Monika Wysoczanska"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "micha%C3%ABl-ramamonjisoa-493a2781"
+  linkedin         : "monika-wysocza%C5%84ska-7b2645134/"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "MichaelRamamon"
+  twitter          :
   vine             :
   weibo            :
   xing             :
