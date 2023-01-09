@@ -27,7 +27,7 @@ News
 - 09/2022: I received [Campus France](https://www.pologne.campusfrance.org/pl/program-stypendialny-sshn-na-pobyt-badawczy) scholarship for another 2-month visit at ENPC in Paris.
 - 07/2022: Starting my summer research internship at Booking.com in Amsterdam!
 - 10/2021: [EgoNN](https://github.com/jac99/Egonn) got accepted to Robotics and Automation Letters (RA-L). Check the paper [here](https://ieeexplore.ieee.org/document/9645340).  
-- 09/2021: I am visiting [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris this fall to work on unsupervised image representations with for VQA [David Picard](https://davidpicard.github.io/).
+- 09/2021: I am visiting [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris this fall to work on unsupervised image representations for VQA with [David Picard](https://davidpicard.github.io/).
 - 03/2021: Our work on [Lidar and Monocular Image Fusion for Place Recognition](https://github.com/jac99/MinkLocMultimodal) got accepted to IJCNN 2021. ([paper](https://ieeexplore.ieee.org/document/9533373))
 
 
