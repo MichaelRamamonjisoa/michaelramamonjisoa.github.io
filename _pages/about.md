@@ -14,7 +14,7 @@ redirect_from:
 Welcome to my webpage!
 ======
 
-I am a AI Researcher Engineer at [Meta AI](https://ai.facebook.com/research/). Before that, I was a PhD Student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) where I was working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a focus on single image 3D geometry estimation.
+I am an AI Research Engineer at [Meta AI](https://ai.facebook.com/research/). Before that, I was a PhD Student in Computer Vision and Machine Learning in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) where I was working on 3D Scene Understanding from images under the supervision of [Prof. Vincent Lepetit](http://imagine.enpc.fr/~lepetitv/), with a focus on single image 3D geometry estimation.
 
 I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) from [ENS Paris-Saclay](http://ens-paris-saclay.fr/). Before that, I obtained joint MS degrees from [Imperial College London](https://www.imperial.ac.uk/) and [Institut d'Optique Graduate School Paristech](https://www.institutoptique.fr/) in Optics, Physics and Signal Processing. 
 
