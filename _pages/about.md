@@ -14,7 +14,7 @@ redirect_from:
 Cześć!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. My research revolves around Multimodal Learning, with particular focus on complex reasoning tasks. I work under the supervision of [Tomasz Trzcinski](http://staff.ii.pw.edu.pl/~ttrzcins/). 
+I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. My research revolves around Multimodal Learning, with particular focus on fine-grained tasks. I work under the supervision of [Tomasz Trzcinski](http://staff.ii.pw.edu.pl/~ttrzcins/). 
 
 I obtained my Masters degree in Computer Science at Warsaw University of Technology and BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
