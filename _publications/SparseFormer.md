@@ -5,7 +5,7 @@ collection: publications
 permalink: /projects/SparseFormer
 thumbnail: /images/sparseformer.png
 date: 19-06-2022
-venue: 'International Conference on Computer Vision (ICCV) Workshop on 3D Reconstruction in the Wild'
+venue: 'CV4AR Workshop at The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 authors: '<a href="https://frederikwarburg.github.io/index.html">Frederik Warburg</a>, <a href="/about.html">Michaël Ramamonjisoa</a>, and <a href="https://m.lopezantequera.com/">Manuel López-Antequera</a>'
 abstract: "Most pipelines for Augmented and Virtual Reality estimate the ego-motion of the camera by creating a map of
 sparse 3D landmarks. In this paper, we tackle the problem of depth completion, that is, densifying this sparse 3D
