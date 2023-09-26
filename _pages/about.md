@@ -21,6 +21,7 @@ I obtained my Masters's degree in Computer Science at Warsaw University of Techn
 
 News
 ======
+- 09/2023: [CLIP-DIY](https://arxiv.org/abs/2309.14289) on arxiv! We introduce a training-free method for Open-Vocabulary Semantic Segmentation. Huge thanks to my team, Michael and Oriane for all the fun! 
 - 07/2023: I graduated from [Neuromatch Academy Summer School](https://academy.neuromatch.io/) in Computational Neuroscience 🧠 It was a great experience!
 - 04/2023: We're excited to organize [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023)! Stay tuned!
 - 01/2023: [EgoNN](https://github.com/jac99/Egonn) in [ICRA2023](https://www.icra2023.org/) as an oral presentation! 
