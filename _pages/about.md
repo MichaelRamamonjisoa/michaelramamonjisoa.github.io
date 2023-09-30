@@ -21,7 +21,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 10/2023: I'll be with the rest of the [DINOv2 team](https://dinov2.metademolab.com/) at [ICCV 2023](https://iccv2023.thecvf.com/) in Paris, come say hi at our demo booth!
+- 10/2023: I'll be with the [DINOv2 team](https://dinov2.metademolab.com/) at [ICCV 2023](https://iccv2023.thecvf.com/) in Paris, come say hi at our demo booth!
 - 09/2022: I joined [Meta AI](https://ai.facebook.com/research/) as an AI Research Engineer.
 - 07/2022: [MonteBoxFinder](https://michaelramamonjisoa.github.io/projects/MonteBoxFinder) has been accepted at ECCV 2022.
 - 05/2022: I am honoured to be acknowledged as [Outstanding Reviewer](https://cvpr2022.thecvf.com/outstanding-reviewers) for CVPR 2022.
