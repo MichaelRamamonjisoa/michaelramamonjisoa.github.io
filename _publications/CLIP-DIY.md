@@ -1,7 +1,7 @@
 ---
 short: 'CLIP-DIY'
 title: 'CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free'
-thumbnail: /images/egonn.png
+thumbnail: /images/clipdiy.png
 collection: publications
 permalink: /publications/CLIP-DIY
 date: 25-09-2023
