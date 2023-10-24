@@ -15,5 +15,5 @@ bibtex: "@article{wysoczanska2023clipdiy,
   year={2023}
 }"
 code: "https://github.com/wysoczanska/clip-diy"
-pdf: "https
+pdf: "https://arxiv.org/pdf/2309.14289.pdf"
 ---
