@@ -21,9 +21,10 @@ I obtained my Masters's degree in Computer Science at Warsaw University of Techn
 
 News
 ======
-- 09/2023: [CLIP-DIY](https://arxiv.org/abs/2309.14289) on arxiv! We introduce a training-free method for Open-Vocabulary Semantic Segmentation. Huge thanks to my team, Michael and Oriane for all the fun! 
+- 10/2023: Woah![CLIP-DIY](https://arxiv.org/abs/2309.14289) got accepted to [WACV 2024](https://wacv2024.thecvf.com/)! Thank you Michael and Oriane ❤️ Polish dumplings as a teaser bring luck 🥟
+- 10/2023: My Booking.com internship paper was accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Huge thanks to the whole Booking Content Intelligence team ❤️ We'll soon share the paper on arxiv!
+- 10/2023: We organized [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023) and it was something! Thanks everyone who participated in the event!
 - 07/2023: I graduated from [Neuromatch Academy Summer School](https://academy.neuromatch.io/) in Computational Neuroscience 🧠 It was a great experience!
-- 04/2023: We're excited to organize [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023)! Stay tuned!
 - 01/2023: [EgoNN](https://github.com/jac99/Egonn) in [ICRA2023](https://www.icra2023.org/) as an oral presentation! 
 - 12/2022: Our research proposal for OPUS 23/ST6 titled "Dynamic neural networks for efficient machine learning" received 3-year funding from Polish National Science Centre.
 - 10/2022: Our paper [Towards Unsupervised VQA: Do off-the-shelf features know how to reason?](https://arxiv.org/abs/2212.10292) got accepted to [NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice](https://sslneurips22.github.io/)! Thanks, Tom, Tomasz, and David!
