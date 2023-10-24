@@ -1,3 +1,4 @@
+---
 short: 'CLIP-DIY'
 title: 'CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free'
 thumbnail: /images/clipdiy.png
@@ -15,3 +16,4 @@ bibtex: "@article{wysoczanska2023clipdiy,
 }"
 code: "https://github.com/wysoczanska/clip-diy"
 pdf: "https
+---
