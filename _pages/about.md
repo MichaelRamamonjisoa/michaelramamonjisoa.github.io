@@ -22,7 +22,7 @@ I obtained my Masters's degree in Computer Science at Warsaw University of Techn
 News
 ======
 - 10/2023: Woah! [CLIP-DIY](https://arxiv.org/abs/2309.14289) got accepted to [WACV 2024](https://wacv2024.thecvf.com/)! Thank you Michael and Oriane ❤️ Polish dumplings as a teaser bring luck 🥟
-- 10/2023: My Booking.com internship paper was accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Huge thanks to the whole Booking Content Intelligence team ❤️ We'll soon share the paper on arxiv!
+- 10/2023: My Booking.com internship paper was accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Huge thanks to the whole Booking Content Intelligence team ❤️ Paper available on [here](https://arxiv.org/pdf/2310.19743.pdf)!
 - 10/2023: We organized [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023) and it was something! Thanks everyone who participated in the event!
 - 07/2023: I graduated from [Neuromatch Academy Summer School](https://academy.neuromatch.io/) in Computational Neuroscience 🧠 It was a great experience!
 - 01/2023: [EgoNN](https://github.com/jac99/Egonn) in [ICRA2023](https://www.icra2023.org/) as an oral presentation! 
