@@ -11,8 +11,8 @@ abstract: "The emergence of CLIP has opened the way for open-world image percept
 bibtex: "@article{wysoczanska2023clipdiy,
   title={CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free},
   author={Wysoczanska, Monika and Ramamonjisoa, Michael and Trzcinski, Tomasz and Simeoni, Oriane},
-  journal={arXiv preprint arXiv:2309.14289},
-  year={2023}
+  booktitle={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  year={2024}
 }"
 code: "https://github.com/wysoczanska/clip-diy"
 pdf: "https://arxiv.org/pdf/2309.14289.pdf"
