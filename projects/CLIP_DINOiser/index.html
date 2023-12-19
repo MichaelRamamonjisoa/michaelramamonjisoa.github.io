@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+    .layered-paper-big {
+        /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The top layer shadow */
+            5px 5px 0 0px #fff,
+            /* The second layer */
+            5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The second layer shadow */
+            10px 10px 0 0px #fff,
+            /* The third layer */
+            10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The third layer shadow */
+            15px 15px 0 0px #fff,
+            /* The fourth layer */
+            15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The fourth layer shadow */
+            20px 20px 0 0px #fff,
+            /* The fifth layer */
+            20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The fifth layer shadow */
+            25px 25px 0 0px #fff,
+            /* The fifth layer */
+            25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+        /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    }
+</style>
+
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="CLIP-DINOiser: Teaching CLIP a few DINO tricks" />
+    <meta property="og:description" content="CLIP-DINOiser is a novel method for Open-Vocabulary Semantic Segmentation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLIP-DINOiser page</title>
+
+    <script>
+        function CopyToClipboard(id) {
+            var r = document.createRange();
+            r.selectNode(document.getElementById(id));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(r);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        }
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1P8DXFXFKM"></script>-->
+<!--    <script>-->
+<!--        window.dataLayer = window.dataLayer || [];-->
+
+<!--        function gtag() {-->
+<!--            dataLayer.push(arguments);-->
+<!--        }-->
+
+<!--        gtag('js', new Date());-->
+
+<!--        gtag('config', 'G-1P8DXFXFKM');-->
+<!--    </script>-->
+    <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2VYDTHPJZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C2VYDTHPJZ');
+</script>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">CLIP-DINOiser: Teaching CLIP a few DINO tricks</h1>
+          <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                    <a href="https://wysoczanska.github.io" target="_blank"
+                        rel="noopener noreferrer">M. Wysoczańska</a><sup>1</sup>,</span>
+                <span class="author-block">
+                    <a href="https://osimeoni.github.io/" target="_blank"
+                        rel="noopener noreferrer">O. Siméoni</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://michaelramamonjisoa.github.io"
+                        target="_blank" rel="noopener noreferrer">M. Ramamonjisoa</a><sup>3</sup>,</span>
+                <span class="author-block">
+                    <a href="https://abursuc.github.io/"
+                        target="_blank" rel="noopener noreferrer">A. Bursuc</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="http://staff.ii.pw.edu.pl/~ttrzcins/" target="_blank"
+                        rel="noopener noreferrer">T. Trzciński</a><sup>1,3,4</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://ptrckprz.github.io/" target="_blank"
+                        rel="noopener noreferrer">P. Pérez</a><sup>2</sup>
+                </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Warsaw University of Technology,</span>
+                <span class="author-block"><sup>2</sup>valeo.ai</span>,
+                <span class="author-block"><sup>3</sup>Meta AI</span>,
+                <span class="author-block"><sup>4</sup>Tooploox</span>,
+                <span class="author-block"><sup>4</sup>IDEAS NCBR</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+                                                        <!-- arXiv Link. -->
+                                        <span class="link-block">
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fa fa-file-pdf"></i>
+                                                </span>
+                                                <span>paper</span>
+                                            </a>
+                                        </span>
+
+                                        <!-- arXiv Link. -->
+                                        <span class="link-block">
+                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="ai ai-arxiv"></i>
+                                                </span>
+                                                <span>arXiv</span>
+                                            </a>
+                                        </span>
+                                        <!-- Code Link. -->
+                                        <span class="link-block">
+                                            <a href="https://github.com/wysoczanska/clip_dinoiser/" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fab fa-github"></i>
+                                                </span>
+                                                <span>Code</span>
+                                            </a>
+                                        </span>
+
+                                        <!-- Video Link. -->
+                                        <span class="link-block">
+                                            <a href="https://www.youtube.com/watch?v=y4Ma7n8ULGk" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fab fa-youtube"></i>
+                                                </span>
+                                                <span>Video</span>
+                                            </a>
+                                        </span>
+                  
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <div>
+                        <img class="round" style="width:850px" src="sources/teaser.png" />
+                    </div>
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            The popular CLIP model displays impressive zero-shot capabilities thanks to
+                            its seamless interaction with arbitrary text prompts. However, its lack of
+                            spatial awareness makes it unsuitable for dense computer vision tasks, e.g.,
+                            semantic segmentation, without an additional fine-tuning step that often uses
+                            annotations and can potentially suppress its original open-vocabulary
+                            properties. Meanwhile, self-supervised representation methods have demonstrated
+                            good localization properties without human-made annotations nor explicit
+                            supervision. In this work, we take the best of both worlds and propose a
+                            zero-shot open-vocabulary semantic segmentation method, which does not require
+                            any annotations. We propose to locally improve dense MaskCLIP features,
+                            computed with a simple modification of CLIP's last pooling layer, by
+                            integrating localization priors extracted from self-supervised features. By
+                            doing so, we greatly improve the performance of MaskCLIP and produce smooth
+                            outputs. Moreover, we show that the used self-supervised feature properties can
+                            directly be learnt from CLIP features therefore allowing us to obtain the best
+                            results with a single pass through CLIP model. Our method CLIP-DINOiser needs
+                            only a single forward pass of CLIP and two light convolutional layers at
+                            inference, no extra supervision nor extra memory and reaches state-of-the-art
+                            results on challenging and fine-grained benchmarks such as COCO, Pascal
+                            Context, Cityscapes and ADE20k.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <video id="teaser" autoplay muted loop playsinline height="100%">
+                <source src="https://github.com/wysoczanska/multimodal-od/assets/18114410/0675d3c2-8e6e-4a01-a678-b53dcf17d539"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+        <!--/ Paper video. -->
+      </div>
+    </section>
+
+    <hr>
+    <section class="section">
+        <div class="container is-max-desktop">
+                <!-- YT video. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Video</h2>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/watch?v=y4Ma7n8ULGk?rel=0&amp;showinfo=0"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+            </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Approach</h2>
+                    <div>
+                        <img class="round" style="width:800px" src="sources/method_diagram_switch_train-1.png" />
+                    </div>
+                    <div class="content has-text-justified">
+                        <p>
+                            <b>Overview of CLIP-DINOiser</b> which leverages the quality of self-supervised features to improve the notoriously noisy
+                            MaskCLIP feature maps. An input image is forwarded through CLIP image backbone and MaskCLIP layer. The produced features
+                            are then improved with our pooling strategy which is guided by correlations predicted with a convolutional layer applied on CLIP. If the
+                            queries contain a ‘background’ class which aims at collecting unmatched stuff -like patches, we further pass MaskCLIP features (noted with
+                            blue arrows) in a second convolutional layer which produces an objectness mask which is used to improve the quality of the ‘background’
+                            detection. We use here DINO as a teacher which ‘teaches’ CLIP how to extract localization information through light convolutional layers.
+                            At inference time, our method requires a single pass through CLIP with the addition of two light convolutional layers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Demo. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Code</h2>
+                    <p> We provide the code for our method on GitHub.</p>
+                    <!-- Code Link. -->
+                    <span class="link-block">
+                        <a href="https://github.com/wysoczanska/clip_dinoiser/" target="_blank" rel="noopener noreferrer"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Paper and Supplementary Material</h2>
+                </div>
+            </div>
+
+            <br>
+            <div class="columns is-centered">
+                <a href="" target="_blank" rel="noopener noreferrer"><img class="layered-paper-big" style="height:175px"
+                        src="sources/paper_shot.png.png" /></a>
+                <span style="font-size:14pt">M. Wysoczańska, O. Siméoni, M. Ramamonjisoa, A. Bursuc, T. Trzciński, P. Pérez.<br>
+                    <b>CLIP-DINOiser: Teaching CLIP a few DINO tricks</b><br>
+                    arxiv, 2023.<br>
+                    (hosted on <a href="" target="_blank" rel="noopener noreferrer">ArXiv</a>)<br>
+                </span>
+            </div>
+
+            <br>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">BibTeX <a href="#" onclick="CopyToClipboard('bibtex');return false;"><span
+                                class="icon"><i class="fa fa-copy"></i></span></a></h2>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <pre><code id="bibtex">@article{wysoczanska2023clipdino,
+  title={CLIP-DINOiser: Teaching CLIP a few DINO tricks},
+  author={Wysocza{\'n}ska, Monika and Sim{\'e}oni, Oriane and Ramamonjisoa, Micha{\"e}l and Andrei Bursuc and Trzci{\'n}ski, Tomasz and Patrick Perez},
+  booktitle={arxiv},
+  year={2023}
+}
+
+</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Ack. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h4 class="title is-3">Acknowledgements</h4>
+                    <div class="content has-text-justified">
+                        <p>
+                            This work was supported by the National Centre of Science (Poland) Grant No. 2022/45/B/ST6/02817
+                            and by the grant from NVIDIA providing one RTX A5000 24GB used for this project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            This website is forked from source of <a
+                                href="https://nerfies.github.io" target="_blank"
+                                rel="noopener noreferrer">
+                                this page</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
