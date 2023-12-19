@@ -60,19 +60,6 @@
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
         </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1P8DXFXFKM"></script>-->
-<!--    <script>-->
-<!--        window.dataLayer = window.dataLayer || [];-->
-
-<!--        function gtag() {-->
-<!--            dataLayer.push(arguments);-->
-<!--        }-->
-
-<!--        gtag('js', new Date());-->
-
-<!--        gtag('config', 'G-1P8DXFXFKM');-->
-<!--    </script>-->
     <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
@@ -90,16 +77,6 @@
     <script src="static/js/bulma-carousel.min.js"></script>
     <script src="static/js/bulma-slider.min.js"></script>
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2VYDTHPJZ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-C2VYDTHPJZ');
-</script>
 
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -207,11 +184,26 @@
 
     <section class="section">
         <div class="container is-max-desktop">
+                <!-- YT video. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+                 <b>TL;DR: Dense CLIP features in a single forward pass without feature alteration and almost no computational extra-cost. </b>
+          </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
                     <div>
                         <img class="round" style="width:850px" src="sources/teaser.png" />
                     </div>
+                    <h2 class="title is-3"> </h2>
+                    <h2 class="title is-3"> </h2>
+                    <h2 class="title is-3"> </h2>
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
@@ -256,7 +248,7 @@
       </div>
     </section>
 
-    <hr>
+
     <section class="section">
         <div class="container is-max-desktop">
                 <!-- YT video. -->
@@ -272,6 +264,7 @@
         </div>
             </div>
     </section>
+
 
 
     <section class="section">
@@ -298,7 +291,8 @@
         </div>
     </section>
 
-    <hr>
+
+
     <section class="section">
         <div class="container is-max-desktop">
             <!-- Demo. -->
@@ -321,7 +315,7 @@
         </div>
     </section>
 
-    <hr>
+
 
     <section class="section">
         <div class="container is-max-desktop">
@@ -345,24 +339,24 @@
             <br>
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
-                    <h2 class="title is-3">BibTeX <a href="#" onclick="CopyToClipboard('bibtex');return false;"><span
-                                class="icon"><i class="fa fa-copy"></i></span></a></h2>
+                    <h2 class="title is-5">BibTeX <a href="#" onclick="CopyToClipboard('bibtex');return false;"></a></h2>
                 </div>
             </div>
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
                     <pre><code id="bibtex">@article{wysoczanska2023clipdino,
-  title={CLIP-DINOiser: Teaching CLIP a few DINO tricks},
-  author={Wysocza{\'n}ska, Monika and Sim{\'e}oni, Oriane and Ramamonjisoa, Micha{\"e}l and Andrei Bursuc and Trzci{\'n}ski, Tomasz and Patrick Perez},
-  booktitle={arxiv},
-  year={2023}
-}
-
+        title={CLIP-DINOiser: Teaching CLIP a few DINO tricks},
+        author={Wysocza{\'n}ska, Monika and Sim{\'e}oni, Oriane and Ramamonjisoa, Micha{\"e}l and Bursuc, Andrei and Trzci{\'n}ski, Tomasz and P{\'e}rez, Patrick},
+        journal={arxiv},
+        year={2023}
+        }
 </code></pre>
                 </div>
             </div>
         </div>
     </section>
+
+
 
     <section class="section">
         <div class="container is-max-desktop">
@@ -388,7 +382,7 @@
                     <div class="content">
                         <p>
                             This website is forked from source of <a
-                                href="https://nerfies.github.io" target="_blank"
+                                href="https://vobecant.github.io/POP3D/" target="_blank"
                                 rel="noopener noreferrer">
                                 this page</a>.
                         </p>
