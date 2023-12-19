@@ -1,0 +1,6 @@
+@article{wysoczanska2023clipdino,
+  title={CLIP-DINOiser: Teaching CLIP a few DINO tricks},
+  author={Wysocza{\'n}ska, Monika and Sim{\'e}oni, Oriane and Ramamonjisoa, Micha{\"e}l and Andrei Bursuc and Trzci{\'n}ski, Tomasz and Patrick Perez},
+  booktitle={arxiv},
+  year={2023}
+}
