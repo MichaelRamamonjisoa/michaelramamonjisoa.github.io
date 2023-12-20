@@ -13,7 +13,7 @@ bibtex: "@article{wysoczanska2023clipdino,<br>
           title     = {CLIP-DINOiser: Teaching CLIP a few DINO tricks}, <br>
           author    = {Wysocza{\\'{n}}ska, Monika and <br>
                Sim{\\'{e}}oni, Oriane and <br>
-               Ramamonjisoa, Micha{\"{e}}l and <br>
+               Ramamonjisoa, Micha{\\\"{e}}l and <br>
                Bursuc, Andrei and <br>
                Trzci{\\'{n}}ski, Tomasz and <br>
                P{\\'{e}}rez, Patrick}, <br>
