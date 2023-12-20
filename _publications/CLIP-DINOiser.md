@@ -18,7 +18,7 @@ bibtex: "@article{wysoczanska2023clipdino,<br>
                P{\'e}rez, Patrick}, <br>
           journal = {arXiv}, <br>
           year = {2023} <br>
-}
+}"
 code: "https://github.com/wysoczanska/clip_dinoiser/"
 project_page: "https://wysoczanska.github.io/CLIP_DINOiser/"
 pdf: "https://arxiv.org/pdf/2312.12359.pdf"
