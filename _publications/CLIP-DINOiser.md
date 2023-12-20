@@ -10,12 +10,7 @@ authors: '<a href="https://wysoczanska.github.io/">Monika Wysoczańska</a>, <a h
 
 bibtex: "@article{wysoczanska2023clipdino,<br>
           title     = {CLIP-DINOiser: Teaching CLIP a few DINO tricks}, <br>
-          author    = {Wysoczanska, Monika and <br>
-               Simeoni, Oriane and <br>
-               Ramamonjisoa, Michael and <br>
-               Bursuc, Andrei and <br>
-               Trzcinski, Tomasz and <br>
-               Perez, Patrick}, <br>
+          author={Wysocza{\\'{n}}ska, Monika and Sim{\\'{e}}oni, Oriane and Ramamonjisoa, Micha{\\"{e}}l and Bursuc, Andrei and Trzci{\\'n}ski, Tomasz and P{\\'{e}}rez, Patrick},
           journal = {arXiv}, <br>
           year = {2023} <br>
 }"
