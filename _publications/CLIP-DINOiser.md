@@ -20,6 +20,6 @@ bibtex: "@article{wysoczanska2023clipdino,<br>
           year = {2023} <br>
 }
 code: "https://github.com/wysoczanska/clip_dinoiser/"
-project: "https://wysoczanska.github.io/CLIP_DINOiser/"
+project_page: "https://wysoczanska.github.io/CLIP_DINOiser/"
 pdf: "https://arxiv.org/pdf/2312.12359.pdf"
 ---
