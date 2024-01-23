@@ -23,11 +23,11 @@ News
 ======
 - 12/2023: [CLIP-DINOiser: Teaching CLIP a few DINO tricks](https://wysoczanska.github.io/CLIP_DINOiser/) on arxiv! Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
 - 10/2023: Woah! [CLIP-DIY](https://arxiv.org/abs/2309.14289) got accepted to [WACV 2024](https://wacv2024.thecvf.com/)! Thank you, Michael and Oriane ❤️ Polish dumplings as a teaser bring luck 🥟
-- 10/2023: My Booking.com internship paper was accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Thanks to the whole Booking Content Intelligence team ❤️ Paper available [here](https://arxiv.org/pdf/2310.19743.pdf)!
+- 10/2023: My Booking.com internship paper is accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Thanks to the whole Booking Content Intelligence team ❤️ Paper available [here](https://arxiv.org/pdf/2310.19743.pdf)!
 - 10/2023: We organized [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023) and it was something! Thanks to everyone who participated in the event!
 - 07/2023: I graduated from [Neuromatch Academy Summer School](https://academy.neuromatch.io/) in Computational Neuroscience 🧠 It was a great experience!
 - 01/2023: [EgoNN](https://github.com/jac99/Egonn) in [ICRA2023](https://www.icra2023.org/) as an oral presentation! 
-- 12/2022: Our OPUS 23/ST6 research proposal titled "Dynamic neural networks for efficient machine learning" received 3-year funding from the Polish National Science Centre.
+- 12/2022: Our research proposal titled "Dynamic neural networks for efficient machine learning" received 3-year funding from the Polish National Science Centre. 2.5 years into my PhD and I finally have funding - no more jobs on the side 👩‍🏭
 - 10/2022: Our paper [Towards Unsupervised VQA: Do off-the-shelf features know how to reason?](https://arxiv.org/abs/2212.10292) got accepted to [NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice](https://sslneurips22.github.io/)! Thanks, Tom, Tomasz, and David!
 - 09/2022: I received [Campus France](https://www.pologne.campusfrance.org/pl/program-stypendialny-sshn-na-pobyt-badawczy) scholarship for another 2-month visit in [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris this fall to work on unsupervised image representations for VQA with [David Picard](https://davidpicard.github.io/).
 - 07/2022: Starting my summer research internship at Booking.com in Amsterdam!
