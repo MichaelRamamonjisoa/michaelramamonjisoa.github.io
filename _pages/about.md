@@ -21,6 +21,7 @@ I obtained my Masters's degree in Computer Science at Warsaw University of Techn
 
 News
 ======
+- 1/2024: I've presented CLIP-DIY at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
 - 12/2023: [CLIP-DINOiser: Teaching CLIP a few DINO tricks](https://wysoczanska.github.io/CLIP_DINOiser/) on arxiv! Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
 - 10/2023: Woah! [CLIP-DIY](https://arxiv.org/abs/2309.14289) got accepted to [WACV 2024](https://wacv2024.thecvf.com/)! Thank you, Michael and Oriane ❤️ Polish dumplings as a teaser bring luck 🥟
 - 10/2023: My Booking.com internship paper is accepted to IAAI-24 (AAAI - Innovative Applications of Artificial Intelligence)! Thanks to the whole Booking Content Intelligence team ❤️ Paper available [here](https://arxiv.org/pdf/2310.19743.pdf)!
