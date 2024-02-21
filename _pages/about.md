@@ -21,10 +21,9 @@ I obtained my master's degree in Computer Science at Warsaw University of Techno
 
 News
 ======
-- 2/2024: Attending AAAI-24 conference in Vancouver to present my Booking.com internship [paper](https://arxiv.org/pdf/2310.19743.pdf).
-- 1/2024: I presented CLIP-DIY at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
+- 02/2024: Attending [AAAI-24 conference](https://aaai.org/aaai-conference/) in Vancouver to present my Booking.com internship [paper](https://arxiv.org/pdf/2310.19743.pdf).
+- 01/2024: I presented [CLIP-DIY](https://arxiv.org/abs/2309.14289) at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
 - 12/2023: [CLIP-DINOiser: Teaching CLIP a few DINO tricks](https://wysoczanska.github.io/CLIP_DINOiser/) on arxiv! Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
-- 10/2023: [CLIP-DIY](https://arxiv.org/abs/2309.14289) accepted to [WACV 2024](https://wacv2024.thecvf.com/)! Thank you, Michael and Oriane ❤️ Polish dumplings as a teaser bring luck 🥟
 - 10/2023: We organized [Women in Computer Vision Workshop at ICCV 2023 in Paris](https://sites.google.com/view/wicviccv2023) and it was something! Thanks to everyone who participated in the event!
 - 07/2023: I graduated from [Neuromatch Academy Summer School](https://academy.neuromatch.io/) in Computational Neuroscience 🧠 It was a great experience!
 - 01/2023: [EgoNN](https://github.com/jac99/Egonn) in [ICRA2023](https://www.icra2023.org/) as an oral presentation! 
