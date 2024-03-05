@@ -4,7 +4,7 @@ collection: teaching
 type: "Studia magisterskie EITI"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Politechnika Warszawska"
-date: Semestr letni 2024
+date: 2024-03-01
 location: "Warsaw, Poland"
 ---
 
