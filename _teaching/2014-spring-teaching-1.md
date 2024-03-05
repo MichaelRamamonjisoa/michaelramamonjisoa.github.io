@@ -1,20 +1,25 @@
 ---
-title: "Teaching experience 1"
+title: "Wprowadzenie do języka naturalnego"
 collection: teaching
-type: "Undergraduate course"
+type: "Studia magisterskie EITI"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Politechnika Warszawska"
+date: Semestr letni 2024
+location: "Warsaw, Poland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+Harmonogram
 ======
+TBA
 
-Heading 2
+Informacje organizacyjne
 ======
+- Zespoły 2-3 osobowe
+- Konsultacje zdalnie (MS Teams) w każdy poniedziałek 17-18 (prośba o wcześniejszy kontakt) lub w innym uzgodnionym uprzednio terminie
+- W razie dodatkowych pytań kontakt w formie mailowej/chat MS Teams na bieżąco
 
-Heading 3
+Propozycje projektów
 ======
+Zachęcam do zgłaszania swoich projektów.
+Proponowane lista tematów TBA
