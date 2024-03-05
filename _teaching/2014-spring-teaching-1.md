@@ -8,18 +8,16 @@ date: 2024-03-01
 location: "Warsaw, Poland"
 ---
 
+Harmonogram
+======
+TBA
 
 Harmonogram
 ======
 TBA
 
-Informacje organizacyjne
+Harmonogram
 ======
-- Zespoły 2-3 osobowe
-- Konsultacje zdalnie (MS Teams) w każdy poniedziałek 17-18 (prośba o wcześniejszy kontakt) lub w innym uzgodnionym uprzednio terminie
-- W razie dodatkowych pytań kontakt w formie mailowej/chat MS Teams na bieżąco
+TBA
 
-Propozycje projektów
-======
-Zachęcam do zgłaszania swoich projektów.
-Proponowane lista tematów TBA
+
