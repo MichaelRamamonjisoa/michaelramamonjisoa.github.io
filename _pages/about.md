@@ -21,6 +21,7 @@ I obtained my master's degree in Computer Science at Warsaw University of Techno
 
 News
 ======
+- 03/2024: We released the training code for [CLIP_DINOiser](https://github.com/wysoczanska/clip_dinoiser).
 - 02/2024: Attending [AAAI-24 conference](https://aaai.org/aaai-conference/) in Vancouver to present my Booking.com internship [paper](https://arxiv.org/pdf/2310.19743.pdf).
 - 01/2024: I presented [CLIP-DIY](https://arxiv.org/abs/2309.14289) at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
 - 12/2023: [CLIP-DINOiser: Teaching CLIP a few DINO tricks](https://wysoczanska.github.io/CLIP_DINOiser/) on arxiv! Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
