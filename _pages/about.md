@@ -14,7 +14,8 @@ redirect_from:
 Cześć!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology and a visiting researcher in valeo.ai in Paris. My research revolves around Multimodal Learning. In particular, I'm interested in multimodal alignment, emphasising text + vision. I investigate it through the means of various multimodal tasks. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
+I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. I have also been lucky enough to spend 10 months as a visiting researcher in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and I have had long term attachments with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts.
+My research revolves around Multimodal Learning. In particular, I'm interested in multimodal alignment, emphasising text + vision. I investigate it through means of various multimodal tasks. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
 
 I obtained my master's degree in Computer Science at Warsaw University of Technology and my BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
