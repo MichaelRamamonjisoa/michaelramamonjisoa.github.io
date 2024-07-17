@@ -21,6 +21,9 @@ I obtained my master's degree in Computer Science at Warsaw University of Techno
 
 News
 ======
+- 07/2024: Very excited to start as Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
+- 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favorite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
+- 07/2024: Our study of single-query scenario for Open-world semantic segmentation availale on [arxiv](https://web3.arxiv.org/abs/2407.05061)!
 - 07/2024: CLIP-DINOiser accepted to ECCV 2024 🍕 Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
 - 02/2024: Attending [AAAI-24 conference](https://aaai.org/aaai-conference/) in Vancouver to present my Booking.com internship [paper](https://arxiv.org/pdf/2310.19743.pdf).
 - 01/2024: I presented [CLIP-DIY](https://arxiv.org/abs/2309.14289) at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
