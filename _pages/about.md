@@ -20,7 +20,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 09/2024: I'll be in Milano 🍕 at [ECCV 2024](https://eccv.ecva.net/) to present CLIP-DINOiser our work to densify CLIP features - great project spearheaded by [Monika](https://wysoczanska.github.io/), congrats!
+- 09/2024: I'll be in Milano 🍕 at [ECCV 2024](https://eccv.ecva.net/) to present CLIP-DINOiser our work on densifying CLIP features - congrats [Monika](https://wysoczanska.github.io/) for spearheading this great project!
 - 10/2023: I'll be with the [DINOv2 team](https://dinov2.metademolab.com/) at [ICCV 2023](https://iccv2023.thecvf.com/) in Paris, come say hi at our demo booth!
 - 09/2022: I joined [Meta AI](https://ai.facebook.com/research/) as an AI Research Engineer.
 - 07/2022: [MonteBoxFinder](https://michaelramamonjisoa.github.io/projects/MonteBoxFinder) has been accepted at ECCV 2022.
