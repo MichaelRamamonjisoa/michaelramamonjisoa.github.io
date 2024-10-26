@@ -23,5 +23,5 @@ bibtex: "@article{wysoczanska2024clipdino,<br>
 
 code: "https://github.com/wysoczanska/clip_dinoiser/"
 project_page: "https://wysoczanska.github.io/CLIP_DINOiser/"
-pdf: "https://arxiv.org/pdf/2312.12359.pdf"
+pdf: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07850.pdf"
 ---
