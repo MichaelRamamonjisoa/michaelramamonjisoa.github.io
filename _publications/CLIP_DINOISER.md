@@ -9,8 +9,8 @@ abstract: "The popular CLIP model displays impressive zero-shot capabilities tha
 authors: '<a href="https://wysoczanska.github.io/">Monika Wysoczańska</a>, <a href="https://osimeoni.github.io/">Oriane Siméoni</a>, <a href="/about.html">Michael Ramamonjisoa</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="http://staff.ii.pw.edu.pl/~ttrzcins/"> Tomasz Trzciński </a>, <a href="https://ptrckprz.github.io/"> Patrick Pérez </a>'
 
 
-bibtex: "@article{wysoczanska2023clipdino,<br>
-          title     = {CLIP-DINOiser: Teaching CLIP a few DINO tricks}, <br>
+bibtex: "@article{wysoczanska2024clipdino,<br>
+          title     = {CLIP-DINOiser: Teaching CLIP a few DINO tricks for open-vocabulary semantic segmentation}, <br>
           author    = {Wysocza{\\'{n}}ska, Monika and <br>
                Sim{\\'{e}}oni, Oriane and <br>
                Ramamonjisoa, Micha{\\\"{e}}l and <br>
