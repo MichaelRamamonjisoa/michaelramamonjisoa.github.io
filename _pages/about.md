@@ -20,7 +20,7 @@ I like to work with different modalities and recently I've been interested in ex
 
 I obtained my master's degree in Computer Science at Warsaw University of Technology and my BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
-**I'm searching for research positions starting in mid-2025. Don't hesitate to reach out in case you have one I could be a good fit for!**
+**I'm searching for research positions starting in mid-2025. Don't hesitate to reach out in case you have one I could be a good fit for 🤗**
 
 
 News
