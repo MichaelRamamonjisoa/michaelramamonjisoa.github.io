@@ -14,18 +14,20 @@ redirect_from:
 Cześć!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. I have also been lucky enough to spend 10 months as a visiting researcher in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and I have had long term attachments with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts.
+I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. I have also been lucky enough to spend 10 months as a visiting researcher in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and I have had long-term attachments with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts.
 
-My research revolves around Multimodal Learning. In particular, I'm interested in multimodal alignment, emphasising text + vision. I investigate it through means of various multimodal tasks. I work under supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
+I like to work with different modalities and recently I've been interested in exploiting the complementarity of both exciting visual representation learning paradigms: self-supervision and text-supervision for generalizable image backbones. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
 
 I obtained my master's degree in Computer Science at Warsaw University of Technology and my BSc from Wroclaw University of Science and Technology in Systems Engineering.
+
+**I'm searching for research positions starting in mid-2025. Don't hesitate to reach out in case you have one I could be a good fit for!**
 
 
 News
 ======
-- 07/2024: Very excited to start as Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
-- 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favorite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
-- 07/2024: Our study of single-query scenario for Open-world semantic segmentation availale on [arxiv](https://web3.arxiv.org/abs/2407.05061)!
+- 07/2024: I am very excited to start as a Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
+- 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favourite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
+- 07/2024: Our study of a single-query scenario for Open-world semantic segmentation is available on [arxiv](https://web3.arxiv.org/abs/2407.05061)!
 - 07/2024: CLIP-DINOiser accepted to ECCV 2024 🍕 Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
 - 02/2024: Attending [AAAI-24 conference](https://aaai.org/aaai-conference/) in Vancouver to present my Booking.com internship [paper](https://arxiv.org/pdf/2310.19743.pdf).
 - 01/2024: I presented [CLIP-DIY](https://arxiv.org/abs/2309.14289) at [WACV 2024](https://wacv2024.thecvf.com/) 🌴 Honored to be part of the Doctoral Consortium and be mentored by Michael Black!
