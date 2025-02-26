@@ -14,9 +14,9 @@ redirect_from:
 Cześć!
 ======
 
-I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of Warsaw University of Technology. I have also been lucky enough to spend 10 months as a visiting researcher in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and I have had long-term attachments with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts.
+I am a PhD student in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of [Warsaw University of Technology](https://eng.pw.edu.pl/). I have also been lucky enough to spend some time as a visiting PhD student in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts. I also interned at [Google Deepmind](https://deepmind.google/) in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) and at [Booking.com](https://www.booking.com/)
 
-I like to work with different modalities and recently I've been interested in exploiting the complementarity of both exciting visual representation learning paradigms: self-supervision and text-supervision for generalizable image backbones. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
+I like to work with different modalities and recently I've been interested in exploiting the complementarity of both exciting visual representation learning paradigms: self-supervision and image-text alignment for generalizable image backbones. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
 
 I obtained my master's degree in Computer Science at Warsaw University of Technology and my BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
@@ -25,6 +25,7 @@ I obtained my master's degree in Computer Science at Warsaw University of Techno
 
 News
 ======
+- 02/2025: I've completed my internship at DeepMind and submitted my thesis. I am now on a job market, don't hesitate to reach out!
 - 07/2024: I am very excited to start as a Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
 - 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favourite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
 - 07/2024: Our study of a single-query scenario for Open-world semantic segmentation is available on [arxiv](https://web3.arxiv.org/abs/2407.05061)!
