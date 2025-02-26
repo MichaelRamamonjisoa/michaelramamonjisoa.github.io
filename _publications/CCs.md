@@ -1,5 +1,5 @@
 ---
-title: "A Study of Test-time Contrastive Concepts for Open-world, Open-vocabulary Semantic Segmentation"
+title: "Test-time Contrastive Concepts for Open-world Semantic Segmentation"
 permalink: /publications/CCs
 date: 6-07-2024
 venue: 'arxiv'
@@ -8,7 +8,7 @@ abstract: "Recent VLMs, pre-trained on large amounts of image-text pairs to alig
 authors: '<a href="https://wysoczanska.github.io/">Monika Wysoczańska</a>, <a href="https://vobecant.github.io/">Antonin Vobecky</a>, Amaia Cardiel, <a href="https://cvlab.ii.pw.edu.pl/ttrzcins/"> Tomasz Trzciński </a>, <a href="https://imagine.enpc.fr/~marletr/"> Renaud Marlet </a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://osimeoni.github.io/">Oriane Siméoni</a>'
 
 bibtex: "@article{wysoczańska2024studycc,
-      title={A Study of Test-time Contrastive Concepts for Open-world, Open-vocabulary Semantic Segmentation}, 
+      title={Test-time Contrastive Concepts for Open-world Semantic Segmentation}, 
       author={Monika Wysoczańska and Antonin Vobecky and Amaia Cardiel and Tomasz Trzciński and Renaud Marlet and Andrei Bursuc and Oriane Siméoni},
       year={2024},
       journal={arXiv}, 
