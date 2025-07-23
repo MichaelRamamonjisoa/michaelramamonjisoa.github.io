@@ -24,8 +24,8 @@ I obtained my master's degree in Computer Science at Warsaw University of Techno
 News
 ======
 - 07/2025: I am now a Postodoctroal redearcher in [valeo.ai](https://valeoai.github.io/blog/)!
+- 05/2025: Contrastive Concepts accepted to TMLR [link](https://openreview.net/pdf?id=wyOv4kGkbU)!
 - 02/2025: I've completed my internship at DeepMind and submitted my thesis. I am now on a job market, don't hesitate to reach out!
-- 05/2024: Contrastive Concepts accepted to TMLR [link](https://openreview.net/pdf?id=wyOv4kGkbU)!
 - 07/2024: I am very excited to start as a Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
 - 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favourite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
 - 07/2024: CLIP-DINOiser accepted to ECCV 2024 🍕 Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
