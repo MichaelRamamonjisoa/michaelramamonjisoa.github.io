@@ -16,16 +16,13 @@ Cześć!
 
 I am a Postdoctoral researcher at [valeo.ai](https://valeoai.github.io/blog/) working on groudning capabilities of VLMs. I completed my PhD in Computer Vision and Machine Learning in the [Computer Vision Lab](https://cvlab.ii.pw.edu.pl/) of [Warsaw University of Technology](https://eng.pw.edu.pl/). I have also been lucky enough to spend some time as a visiting PhD student in [valeo.ai](https://valeoai.github.io/blog/) team in Paris and with [Imagine group](http://imagine.enpc.fr/) of Ecole des Ponts. I also interned at [Google Deepmind](https://deepmind.google/) in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) and at [Booking.com](https://www.booking.com/)
 
-I like to work with different modalities and recently I've been interested in exploiting the complementarity of both exciting visual representation learning paradigms: self-supervision and image-text alignment for generalizable image backbones. I work under the supervision of [Tomasz Trzcinski](https://cvlab.ii.pw.edu.pl/ttrzcins/). 
-
 I obtained my master's degree in Computer Science at Warsaw University of Technology and my BSc from Wroclaw University of Science and Technology in Systems Engineering.
 
 
 News
 ======
-- 07/2025: I am now a Postodoctroal redearcher in [valeo.ai](https://valeoai.github.io/blog/)!
-- 05/2025: Contrastive Concepts accepted to TMLR [link](https://openreview.net/pdf?id=wyOv4kGkbU)!
-- 02/2025: I've completed my internship at DeepMind and submitted my thesis. I am now on a job market, don't hesitate to reach out!
+- 07/2025: I am now a Postodoctroal researcher in [valeo.ai](https://valeoai.github.io/blog/)!
+- 05/2025: Contrastive Concepts accepted to [TMLR](https://openreview.net/pdf?id=wyOv4kGkbU)!
 - 07/2024: I am very excited to start as a Student Researcher at Google DeepMind! I'll be working in the team led by [Cordelia Schmid](https://cordeliaschmid.github.io/) in Grenoble ⛰️
 - 07/2024: Gave a talk on Open-Vocabulary Semantic Segmentation in my favourite academic lab - [Imagine](https://imagine-lab.enpc.fr/) ❤️
 - 07/2024: CLIP-DINOiser accepted to ECCV 2024 🍕 Very lucky to have worked with such great researchers: Oriane, Mic, Andrei, Tomasz and Patrick, thank you.
