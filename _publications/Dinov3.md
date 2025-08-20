@@ -1,6 +1,6 @@
 ---
-short: 'Dinov3'
-title: 'Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields'
+short: 'DINOv3'
+title: 'DINOv3'
 thumbnail: /images/dinov3_main.jpg
 permalink: /publications/Dinov3
 collection: publications
