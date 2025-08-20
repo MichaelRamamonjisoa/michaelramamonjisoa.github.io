@@ -1,4 +1,5 @@
 ---
+short: "DINOv3"
 permalink: /publications/Dinov3
 date: 14-08-2025
 venue: 'arXiv'
