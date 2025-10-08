@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+    .layered-paper-big {
+        /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The top layer shadow */
+            5px 5px 0 0px #fff,
+            /* The second layer */
+            5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The second layer shadow */
+            10px 10px 0 0px #fff,
+            /* The third layer */
+            10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The third layer shadow */
+            15px 15px 0 0px #fff,
+            /* The fourth layer */
+            15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The fourth layer shadow */
+            20px 20px 0 0px #fff,
+            /* The fifth layer */
+            20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+            /* The fifth layer shadow */
+            25px 25px 0 0px #fff,
+            /* The fifth layer */
+            25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+        /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    }
+</style>
+
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="OVFact: Measuring and Improving Open-Vocabulary Factuality for Long Caption Models" />
+    <meta property="og:description" content="OVFact is a novel method for measuring and improving open-vocabulary factuality in long caption models." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OVFact page</title>
+
+    <script>
+        function CopyToClipboard(id) {
+            var r = document.createRange();
+            r.selectNode(document.getElementById(id));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(r);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        }
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+    <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">OVFact: Measuring and Improving Open-Vocabulary Factuality for Long Caption Models</h1>
+          <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                    <a href="https://wysoczanska.github.io" target="_blank"
+                        rel="noopener noreferrer">M. Wysoczańska</a><sup>1,2</sup>,</span>
+                <span class="author-block">
+                    <a href="https://cs.stanford.edu/~shyamal/" target="_blank"
+                        rel="noopener noreferrer">S. Buch</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://anuragarnab.github.io/"
+                        target="_blank" rel="noopener noreferrer">A. Arnab</a><sup>2</sup>,</span>
+                <span class="author-block">
+                    <a href="https://cordeliaschmid.github.io/"
+                        target="_blank" rel="noopener noreferrer">C. Schmid</a><sup>2</sup>,
+                </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Warsaw University of Technology,</span>
+                <span class="author-block"><sup>2</sup>Google DeepMind</span>,
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+                                                        <!-- arXiv Link. -->
+                                        <span class="link-block">
+                                            <a href="https://arxiv.org/abs/2507.19262" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fa fa-file-pdf"></i>
+                                                </span>
+                                                <span>paper</span>
+                                            </a>
+                                        </span>
+                                        <!-- Code Link. -->
+                                        <span class="link-block">
+                                            <a href="https://github.com/wysoczanska/ovfact" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fab fa-github"></i>
+                                                </span>
+                                                <span>Code</span>
+                                            </a>
+                                        </span>
+
+                                        <!-- Video Link. -->
+                                        <span class="link-block">
+                                            <a href="https://www.youtube.com/embed/vHl4FitbHi0" target="_blank" rel="noopener noreferrer"
+                                                class="external-link button is-normal is-rounded is-dark">
+                                                <span class="icon">
+                                                    <i class="fab fa-youtube"></i>
+                                                </span>
+                                                <span>Video</span>
+                                            </a>
+                                        </span>
+                  
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding:0.5rem 1.5rem">
+        <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+                 <b>TL;DR: We introduce a method to measure open-vocabulary factuality of long captions which can be applied to large-scale data filtering.</b>
+          </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <div>
+                        <img class="round" style="width:850px" src="sources/1_teaser_v4.png" />
+                    </div>
+                    <h2 class="title is-3"> </h2>
+                    <h2 class="title is-3"> </h2>
+                    <h2 class="title is-3"> </h2>
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Large vision-language models (VLMs) often struggle to generate long and factual captions. However, traditional measures for hallucination and factuality are not well suited for evaluating longer, more diverse captions and in settings where ground-truth human-annotated captions are unavailable. We introduce OVFact, a novel method for measuring caption factuality of long captions that leverages openvocabulary visual grounding and tool-based verification without depending on human annotations. Our method improves agreement with human judgments and captures both caption descriptiveness (recall) and factual precision in the same metric. Furthermore, unlike previous metrics, our reference-free method design enables new applications towards factuality-based data filtering. We observe models trained on an OVFact-filtered (2.5-5x less) subset of a largescale, noisy (VLM-generated) pretraining set meaningfully improve factuality precision without sacrificing caption descriptiveness across a range of downstream long caption benchmarks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+                <!-- YT video. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Video</h2>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/vHl4FitbHi0"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+            </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Approach</h2>
+                    <div>
+                        <img class="round" style="width:800px" src="sources/3_overview_v3.png" />
+                    </div>
+                    <div class="content has-text-justified">
+                        <p>
+                            <b>Overview of OVFact.</b> Our reference-free method assesses two aspects of long captioning – precision and
+descriptiveness (recall) – in a unified manner, without requiring ground-truth reference annotations. We process a
+model output caption into a set of candidate entities C, and assess which subset G is groundable in the input image
+with open-vocabulary detection and segmentation tools. Precision is then measured as a ratio of entities remaining
+(e.g. above“red blanket” and “white curtains”detected as hallucinated). To measure descriptiveness, we assess a
+large open-vocabulary concept set V and identify which concepts are grounded in the image R, then measure their
+recall within the candidate entities from the VLM C caption using maximum similarity scoring. Unlike prior work
+(Petryk et al., 2024; Rohrbach et al., 2018; Kaul et al., 2024), our method can be directly applied to assess factuality
+in settings where only model-generated caption outputs are available, such as data filtering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Demo. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Code</h2>
+                    <p> We provide the code for our method on GitHub.</p>
+                    <!-- Code Link. -->
+                    <span class="link-block">
+                        <a href="https://github.com/wysoczanska/OVFact/" target="_blank" rel="noopener noreferrer"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Paper and Supplementary Material</h2>
+                </div>
+            </div>
+
+            <br>
+            <div class="columns is-centered">
+                <a href="" target="_blank" rel="noopener noreferrer"><img class="layered-paper-big" style="height:175px"
+                        src="sources/paper_shot.png" /></a>
+                <span style="font-size:14pt">M. Wysoczańska, S. Buch, A. Arnab, C. Schmid.<br>
+                    <b>OVFact: Measuring and Improving Open-Vocabulary Factuality for Long Caption Models, EMNLP Finding 2025<br>
+                    (hosted on <a href="https://arxiv.org/pdf/2507.19262" target="_blank" rel="noopener noreferrer">ArXiv</a>)<br>
+                </span>
+            </div>
+
+            <br>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-5">BibTeX <a href="#" onclick="CopyToClipboard('bibtex');return false;"></a></h2>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <pre><code id="bibtex">@article{wysoczanska2025ovfact,
+  title={OVFact: Measuring and Improving Open-Vocabulary Factuality for Long Caption Models},
+  author={Wysocza{\'n}ska, Monika and Buch, Shyamal and Arnab, Anurag and Schmid, Cordelia},
+  journal={EMNLP Findings},
+  year={2025}
+}
+</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            This website is forked from source of <a
+                                href="https://vobecant.github.io/POP3D/" target="_blank"
+                                rel="noopener noreferrer">
+                                this page</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
