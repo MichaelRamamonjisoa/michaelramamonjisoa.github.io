@@ -20,7 +20,7 @@ I received a MRes degree in [Mathematics, Vision, and Learning (MVA)](http://mat
 
 News
 ======
-- 08-2025: DINOv3 is out! Checkout the [blog post](https://ai.meta.com/blog/dinov3-self-supervised-vision-model/) for amazing visuals enjoy [our code](https://github.com/facebookresearch/dinov3). Super greatful and proud of our work!
+- 08-2025: DINOv3 is out! Checkout the [blog post](https://ai.meta.com/blog/dinov3-self-supervised-vision-model/) for amazing visuals enjoy [our code](https://github.com/facebookresearch/dinov3). Super proud of our work!
 - 09/2024: I'll be in Milano 🍕 at [ECCV 2024](https://eccv.ecva.net/) to present CLIP-DINOiser our work on densifying CLIP features - congrats [Monika](https://wysoczanska.github.io/) for spearheading this great project!
 - 10/2023: I'll be with the [DINOv2 team](https://dinov2.metademolab.com/) at [ICCV 2023](https://iccv2023.thecvf.com/) in Paris, come say hi at our demo booth!
 - 09/2022: I joined [Meta AI](https://ai.facebook.com/research/) as an AI Research Engineer.
