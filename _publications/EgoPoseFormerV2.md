@@ -10,7 +10,7 @@ abstract: 'Egocentric 3D human motion estimation is essential for AR/VR experien
 authors: 'Zhenyu Li, Sai Kumar Dwivedi, Filip Maric, Carlos Chacon, Nadine Bertsch, Filippo Arcadu, Tomas Hodan, <b>Michael Ramamonjisoa</b>, Peter Wonka, Amy Zhao, Robin Kips, Cem Keskin, Anastasia Tkach, Chenhongyi Yang'
  
 bibtex: "@InProceedings{Li_2026_CVPR, <br>
-    author    = {Li, Zhenyu and Dwivedi, Sai Kumar and Maric, Filip and Chac\'on, Carlos and Bertsch, Nadine and Arcadu, Filippo and Hodan, Tomas and Ramamonjisoa, Michael and Wonka, Peter and Zhao, Amy and Kips, Robin and Keskin, Cem and Tkach, Anastasia and Yang, Chenhongyi}, <br>
+    author    = {Li, Zhenyu and Dwivedi, Sai Kumar and Maric, Filip and Chac{\\\'{o}}n, Carlos and Bertsch, Nadine and Arcadu, Filippo and Hodan, Tomas and Ramamonjisoa, Michael and Wonka, Peter and Zhao, Amy and Kips, Robin and Keskin, Cem and Tkach, Anastasia and Yang, Chenhongyi}, <br>
     title     = {EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR}, <br>
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
     month     = {June}, <br>
